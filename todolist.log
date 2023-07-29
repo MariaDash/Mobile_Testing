@@ -1,0 +1,343 @@
+07-21 22:29:47.812  1823  3519 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[470,862][670,1072] mCallingUid=10164} from uid 10164
+07-21 22:29:47.830  1823  3519 I OplusScreenSecurityMask: onStackAdded task = Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=false mode=fullscreen translucent=true sz=0} record = null displayId = 0
+07-21 22:29:47.832  1823  3519 E WindowManager: makeSurface ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232} windowType 2
+07-21 22:29:47.832  1046  1979 D SurfaceFlinger: addClientLayer(144): seq(13086) name,ActivityRecord{80c691a u0 com.android.todolist/.MainActivity#0
+07-21 22:29:47.833  1823  3519 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}; parent: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=true sz=1}
+07-21 22:29:47.833  1823  3519 D TaskExtImpl: add ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(1) }
+07-21 22:29:47.835  1823  3519 D ActivityTaskManager: getStartingWindowType: newTask=true, taskSwitch=true, processRunning=false, allowTaskSnapshot=true, activityCreated=false, snapshot=null, record:ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:47.836  1823  3519 V OplusZoomWindowManagerService: windowMode: 0 ,stack: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=true sz=1}
+07-21 22:29:47.837  1823  3519 I PowerHalWrapper: <amsBoostResume> last:com.android.launcher, next:com.android.todolist 
+07-21 22:29:47.841  1823  3519 D OplusAlwaysAliveManager: process not running, cold launch: ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}, processName: com.android.todolist
+07-21 22:29:47.849  1823  6988 I OplusHansManager : front pkg: com.android.todolist, uid: 10479, prev pkg: com.android.launcher, prev uid: 10164
+07-21 22:29:47.850  1823  2260 D Osense-PolicyManager: notifyAppDataToPolicy:IntegratedData{mResId=13, mTime=1689967787849, mInfo=Bundle[{prevPkgName=com.android.launcher, curUid=10479, curPkgName=com.android.todolist, prevUid=10164}]}
+07-21 22:29:47.856  2246  2337 D WindowManager: Add to mViews: android.widget.FrameLayout{7882aff V.E...... ......I. 0,0-0,0},pkg= com.android.todolist
+07-21 22:29:47.858  1823  1855 I PowerHalWrapper: amsBoostProcessCreate package:com.android.todolist 
+07-21 22:29:47.858  2246  2337 D ViewRootImpl[todolist]: hardware acceleration = true, sRendererEnabled = true, forceHwAccelerated = false
+07-21 22:29:47.859  1823  3519 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:47.860  1046  1979 D SurfaceFlinger: addClientLayer(145): seq(13087) name,daf6b96 Splash Screen com.android.todolist#0
+07-21 22:29:47.870  1823  3519 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:47.871  1046  1979 I BufferQueueDebug: [Splash Screen com.android.todolist#0](this:0xb400006f402dea40,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1046:/system/bin/surfaceflinger)
+07-21 22:29:47.871  1046  1979 D SurfaceFlinger: addClientLayer(146): seq(13088) name,Splash Screen com.android.todolist#0
+07-21 22:29:47.877  2246  2337 I BLASTBufferQueue: [ViewRootImpl[todolist]#671] constructor()
+07-21 22:29:47.878  2246  2456 I BufferQueueProducer: [ViewRootImpl[todolist]#671(BLAST Consumer)671](id:8c60000037f,api:1,p:2246,c:2246) connect: api=1 producerControlledByApp=true
+07-21 22:29:47.890  1046  1046 D OplusLayer: setBuffer sequence=13088, name=Splash Screen com.android.todolist#0
+07-21 22:29:47.894  1823  1869 I ActivityManager: Start proc 32421:com.android.todolist/u0a479 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+07-21 22:29:47.897  1823  1856 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:47.911  1823  1856 I WindowStateExtImpl: onSurfaceShowChange show = true mPackageName = com.android.todolist parentPkgName = com.android.todolist
+07-21 22:29:47.954  1823  3677 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+07-21 22:29:48.097  1823  3677 I OplusAppSwitchManagerService: appswitch hasProcess ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:48.098  1823  2851 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = com.android.todolist, target = com.android.launcher, is ResumingFirstStart =  true, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=10232, uid=10479}]
+07-21 22:29:48.098  1823  3677 I OplusAppSwitchManagerService: appswitch hasProcess ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:48.098  1823  7074 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.android.launcher to = com.android.todolist
+07-21 22:29:48.098  1823  3677 I PowerHalWrapper: amsBoostNotify pid:32421,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+07-21 22:29:48.098  1823  2851 D OplusEapManager: mTargetEnterName :com.android.todolist
+07-21 22:29:48.098  1823  2851 D OplusLatencyOptimizerManager: enter pkg: com.android.todolist isPrevBlackAppTop: false mIsBlackAppTop: false
+07-21 22:29:48.098  1823  3677 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:48.098  1823  2851 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  com.android.launcher, target =  com.android.todolist, is firstStart =  true, is multiApp =  false, extensionInfo =  Bundle[{taskId=10232, pid=32421, uid=10479, versionCode=1}]
+07-21 22:29:48.098  1823  2851 D VRR [OPlusFrontAppManager]: OnAppSwitchObserver: onAppEnter , info.targetName = com.android.todolist
+07-21 22:29:48.099  1823  2851 D VRR [OPlusFrontAppManager]: packageName: com.android.todolist
+07-21 22:29:48.099   959  1029 I libPowerHal: [perfNotifyAppState] foreground:com.android.todolist, pid:32421, uid:10479
+07-21 22:29:48.101   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:29:48.101   959   969 I mtkpower@impl: [notifyAppState] pc:1, com.android.launcher => com.android.todolist
+07-21 22:29:48.102  1823  1894 D VRR [OPlusRefreshRateService]: handleFrontAppChange pkgName: com.android.todolist
+07-21 22:29:48.102  1823  1894 D VRR [OPlusExternalRefreshRateManager]: setFrontPackageName pkgName: com.android.todolist CurPkgName: null
+07-21 22:29:48.104  1823  1855 D OplusKeepAliveManager: TOP_APP is ProcessRecord{3614cca 32421:com.android.todolist/u0a479} uid is 10479
+07-21 22:29:48.106  1823  1876 E OplusThermalStats: Error getting package info: com.android.todolist
+07-21 22:29:48.103  2532  6364 W Battery : ThermalControlUtils: mForegroundPkg=com.android.todolist
+07-21 22:29:48.129  3598  3898 W ziparchive: Unable to open '/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.dm': No such file or directory
+07-21 22:29:48.129  3598  3898 W ziparchive: Unable to open '/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.dm': No such file or directory
+07-21 22:29:48.136 32421 32421 W ziparchive: Unable to open '/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.dm': No such file or directory
+07-21 22:29:48.137 32421 32421 W ziparchive: Unable to open '/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.dm': No such file or directory
+07-21 22:29:48.172  1823  6988 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:48.172  1823  6988 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:29:48.254 32421 32421 D nativeloader: Configuring classloader-namespace for other apk /data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.todolist
+07-21 22:29:48.266 32421 32421 V GraphicsEnvironment: ANGLE Developer option for 'com.android.todolist' set to: 'default'
+07-21 22:29:48.295 32421 32444 D libMEOW : applied 1 plugins for [com.android.todolist]:
+07-21 22:29:48.486 32421 32421 I Quality : ActivityThread: viewInflate delay 113 com.android.todolist:layout/activity_main 32421
+07-21 22:29:48.516 32421 32421 I Quality : ActivityThread: activityStart delay 234 com.android.todolist 32421
+07-21 22:29:48.525  1046  1123 I SurfaceFlinger: [SF client] NEW(0xb400006f3fe29880) for (32421:com.android.todolist)
+07-21 22:29:48.530 32421 32421 D OplusSlideAnimOptHelper: com.android.todolist scrollEffectOpt enable = true
+07-21 22:29:48.535 32421 32421 D WindowManager: Add to mViews: DecorView@b3c3dc9[MainActivity],pkg= com.android.todolist
+07-21 22:29:48.549  1823  3519 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:48.552  1046  1123 D SurfaceFlinger: addClientLayer(150): seq(13094) name,e059e56 com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:29:48.555 32421 32421 D libMEOW : applied 1 plugins for [com.android.todolist]:
+07-21 22:29:48.586  1823  3519 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:48.587  1046  1123 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#0](this:0xb400006f3feb8a40,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1046:/system/bin/surfaceflinger)
+07-21 22:29:48.587  1046  1123 D SurfaceFlinger: addClientLayer(151): seq(13095) name,com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:29:48.590  1823  3519 W WindowManager: Changing focus from null to Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowManagerService.relayoutWindow:2606 com.android.server.wm.Session.relayout:247 
+07-21 22:29:48.590  1823  3519 D CompactWindowManagerService: notifyCompactWindowState task: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=1}; hasFocus: true
+07-21 22:29:48.590  1823  3519 D ActivityTaskManager: onWindowFocusChanged Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=1} would transfer to compact
+07-21 22:29:48.594  1823  3519 I WindowManager: Relayout Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 720 requestedHeight = 1600 outFrames = ClientWindowFrames{frame=[0,0][720,1600] display=[0,0][720,1600] backdrop=[0,0][720,1600]} outSurfaceControl = Surface(name=com.android.todolist/com.android.todolist.MainActivity)/@0x24d5830
+07-21 22:29:48.601 32421 32442 D libMEOW : applied 1 plugins for [com.android.todolist]:
+07-21 22:29:48.604  2532  2856 W AuthDialogHelper: checkNotificationSwitchFirst() called with: context = [com.oplus.notification.NotificationCenterService@3087ffe], pkg = [com.android.todolist], uid = [10479], userId = [0], init checker
+07-21 22:29:48.605  2532  2856 E AuthDialogHelper: CheckNotificationCanBeSetSecond: check com.android.todolist , Notification master switch on, unable to pop dialog
+07-21 22:29:48.764  1046  1046 D OplusLayer: setBuffer sequence=13095, name=com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:29:48.772  1823  1856 D OplusStartingWindowManager: interceptRemoveStartingWindow activity.packageName=com.android.todolist isSnapshot=false mStartingSurfaceRunnable=null
+07-21 22:29:48.773  1046  1123 D SurfaceFlinger: addClientLayer(152): seq(13098) name,Surface(name=e059e56 com.android.todolist/com.android.todolist.MainActivity)/@0x1161a65 - animation-leash of starting_reveal#0
+07-21 22:29:48.774  1823  1856 I Quality : LaunchTime2.0: com.android.todolist/.MainActivity 1 933
+07-21 22:29:48.775  1823  1852 W ziparchive: Unable to open '/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.dm': No such file or directory
+07-21 22:29:48.776  2246  2456 I BufferQueueProducer: [ViewRootImpl[todolist]#671(BLAST Consumer)671](id:8c60000037f,api:1,p:2246,c:2246) disconnect: api 1
+07-21 22:29:48.778  2246  2337 I BLASTBufferQueue: [ViewRootImpl[todolist]#671] destructor()
+07-21 22:29:48.778  2246  2337 I BufferQueueConsumer: [ViewRootImpl[todolist]#671(BLAST Consumer)671](id:8c60000037f,api:0,p:-1,c:2246) disconnect
+07-21 22:29:48.780  1823  1852 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +963ms
+07-21 22:29:48.780  1823  3519 W InputManager-JNI: Input channel object 'daf6b96 Splash Screen com.android.todolist (client)' was disposed without first being removed with the input manager!
+07-21 22:29:48.781  1046  1123 D SurfaceFlinger: addClientLayer(153): seq(13099) name,Surface(name=daf6b96 Splash Screen com.android.todolist)/@0xc93a5f4 - animation-leash of window_animation#0
+07-21 22:29:48.785  1823  3519 I FocusResolver: updateFocusedWindow, e059e56 com.android.todolist/com.android.todolist.MainActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+07-21 22:29:48.785  1823  3519 I FocusResolver:     displayId=0, name='e059e56 com.android.todolist/com.android.todolist.MainActivity'
+07-21 22:29:48.786  1823  1855 I PowerHalWrapper: amsBoostNotify pid:2517,activity:com.android.launcher.Launcher, package:com.android.launcher, mProcessCreatePackcom.android.todolist 
+07-21 22:29:48.792 32421 32421 I Quality : Skipped: false 12 cost 212.28006 refreshRate 0 processName com.android.todolist
+07-21 22:29:48.799  1046  1046 D Layer   : reparent to null sequence=13098, seq[1], name=Surface(name=e059e56 com.android.todolist/com.android.todolist.MainActivity)/@0x1161a65 - animation-leash of starting_reveal#0
+07-21 22:29:48.809  1823  3519 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:29:48.819  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:29:48.965  1823  1856 I WindowStateExtImpl: onSurfaceShowChange show = false mPackageName = com.android.todolist parentPkgName = com.android.todolist
+07-21 22:29:48.965  1823  1856 D WindowManager: setParent old=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232},new=null,this window=Window{daf6b96 u0 Splash Screen com.android.todolist},callers=com.android.server.wm.WindowContainer.removeChild:627 com.android.server.wm.ActivityRecord.removeChild:4174 com.android.server.wm.ActivityRecord.removeChild:394 com.android.server.wm.WindowContainer.removeImmediately:683 com.android.server.wm.WindowState.removeImmediately:2543 com.android.server.wm.WindowState.destroySurface:3737 
+07-21 22:29:48.980  1046  1046 D Layer   : reparent to null sequence=13088, seq[4], name=Splash Screen com.android.todolist#0
+07-21 22:29:48.981  1046  1046 D Layer   : reparent to null sequence=13087, seq[3], name=daf6b96 Splash Screen com.android.todolist#0
+07-21 22:29:48.981  1046  1046 D Layer   : reparent to null sequence=13099, seq[24], name=Surface(name=daf6b96 Splash Screen com.android.todolist)/@0xc93a5f4 - animation-leash of window_animation#0
+07-21 22:29:48.981  1046  1046 D OplusLayer: ~Layer() sequence=13099, name=Surface(name=daf6b96 Splash Screen com.android.todolist)/@0xc93a5f4 - animation-leash of window_animation#0 0xb400006f3ff88000
+07-21 22:29:48.981  1046  1046 D OplusLayer: ~Layer() sequence=13087, name=daf6b96 Splash Screen com.android.todolist#0 0xb400006f3ff6b000
+07-21 22:29:48.983  1046  1046 I BufferQueueDebug: [Splash Screen com.android.todolist#0](this:0xb400006f402dea40,id:-1,api:0,p:-1,c:1046) onDestructor()
+07-21 22:29:48.983  1046  1046 D OplusLayer: ~Layer() sequence=13088, name=Splash Screen com.android.todolist#0 0xb400006f402dc000
+07-21 22:29:49.865  1823  3115 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+07-21 22:29:49.871  1823  3115 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+07-21 22:29:49.872  1823  3115 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+07-21 22:29:49.983   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:29:52.480 32421 32421 I Quality : Skipped: false 1 cost 29.693924 refreshRate 0 processName com.android.todolist
+07-21 22:29:52.562  1046  1123 I SurfaceFlinger: [SF client] NEW(0xb400006f38c3b880) for (32421:com.android.todolist)
+07-21 22:29:52.565 32421 32421 D WindowManager: Add to mViews: DecorView@3e41f87[MainActivity],pkg= com.android.todolist
+07-21 22:29:52.569  1823  2878 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:52.571  1046  1123 D SurfaceFlinger: addClientLayer(149): seq(13102) name,5d4d081 com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:29:52.572  1823  2878 W WindowManager: Changing focus from Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{5d4d081 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowManagerService.addWindow:1943 com.android.server.wm.Session.addToDisplayAsUser:212 
+07-21 22:29:52.582 32421 32421 I Quality : Skipped: false 5 cost 98.36936 refreshRate 0 processName com.android.todolist
+07-21 22:29:52.602  1823  7373 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:29:52.603  1046  1122 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#1](this:0xb400006f38da6a40,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1046:/system/bin/surfaceflinger)
+07-21 22:29:52.603  1046  1122 D SurfaceFlinger: addClientLayer(152): seq(13105) name,com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:29:52.669  1046  1046 D OplusLayer: setBuffer sequence=13105, name=com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:29:52.669 32421 32421 I Quality : Skipped: false 4 cost 70.18883 refreshRate 0 processName com.android.todolist
+07-21 22:29:52.672  1046  1122 D SurfaceFlinger: addClientLayer(152): seq(13106) name,Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:52.688  1823  2878 I FocusResolver: updateFocusedWindow, 5d4d081 com.android.todolist/com.android.todolist.MainActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+07-21 22:29:52.688  1823  2878 I FocusResolver:     displayId=0, name='5d4d081 com.android.todolist/com.android.todolist.MainActivity'
+07-21 22:29:52.707  1823  2878 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:29:52.709  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:29:52.867  1046  1046 D Layer   : reparent to null sequence=13106, seq[26], name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:52.869  1046  1046 D OplusLayer: ~Layer() sequence=13106, name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0 0xb400006f33ac3000
+07-21 22:29:52.984   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:29:53.967  1823  2878 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:29:53.977  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:29:53.988  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:29:53.992  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:29:54.010  3060 29601 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:29:54.011  3060 29006 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:29:54.097  1046  1122 D SurfaceFlinger: addClientLayer(153): seq(13111) name,Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:54.312  3060 29601 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:29:54.425  3060 32503 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:29:54.554  1046  1046 D Layer   : reparent to null sequence=13111, seq[27], name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:54.555  1046  1046 D OplusLayer: ~Layer() sequence=13111, name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0 0xb400006f400c8000
+07-21 22:29:54.986   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:29:55.640  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:29:58.956  1823  2878 W InputManager-JNI: Input channel object '5d4d081 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+07-21 22:29:58.958  1046  1979 D SurfaceFlinger: addClientLayer(152): seq(13112) name,Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:58.960  1823  2878 W WindowManager: Changing focus from Window{5d4d081 u0 com.android.todolist/com.android.todolist.MainActivity EXITING} to Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowState.setupWindowForRemoveOnExit:2763 com.android.server.wm.WindowState.removeIfPossible:2731 
+07-21 22:29:58.974 32421 32421 I Quality : Skipped: false 2 cost 38.833546 refreshRate 0 processName com.android.todolist
+07-21 22:29:59.007  1823  6988 I FocusResolver: updateFocusedWindow, e059e56 com.android.todolist/com.android.todolist.MainActivity on display 0, reason: setFocusedWindow, result:   FocusedWindows:
+07-21 22:29:59.007  1823  6988 I FocusResolver:     displayId=0, name='e059e56 com.android.todolist/com.android.todolist.MainActivity'
+07-21 22:29:59.026  1823  6988 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:29:59.039  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:29:59.138  1823  1856 D WindowManager: setParent old=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232},new=null,this window=Window{5d4d081 u0 com.android.todolist/com.android.todolist.MainActivity},callers=com.android.server.wm.WindowContainer.removeChild:627 com.android.server.wm.ActivityRecord.removeChild:4174 com.android.server.wm.ActivityRecord.removeChild:394 com.android.server.wm.WindowContainer.removeImmediately:683 com.android.server.wm.WindowState.removeImmediately:2543 com.android.server.wm.WindowState.destroySurface:3737 
+07-21 22:29:59.154  1046  1046 D Layer   : reparent to null sequence=13105, seq[4], name=com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:29:59.154  1046  1046 D Layer   : reparent to null sequence=13102, seq[13], name=5d4d081 com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:29:59.154  1046  1046 D Layer   : reparent to null sequence=13112, seq[25], name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0
+07-21 22:29:59.156  1046  1046 D OplusLayer: ~Layer() sequence=13112, name=Surface(name=5d4d081 com.android.todolist/com.android.todolist.MainActivity)/@0x5ad2fe - animation-leash of window_animation#0 0xb400006f40322000
+07-21 22:29:59.156  1046  1046 D OplusLayer: ~Layer() sequence=13102, name=5d4d081 com.android.todolist/com.android.todolist.MainActivity#0 0xb400006f3ff8b000
+07-21 22:29:59.163  1046  1046 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#1](this:0xb400006f38da6a40,id:-1,api:0,p:-1,c:1046) onDestructor()
+07-21 22:29:59.163  1046  1046 D OplusLayer: ~Layer() sequence=13105, name=com.android.todolist/com.android.todolist.MainActivity#1 0xb400006f38da4000
+07-21 22:29:59.987   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:00.987   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:01.312 32421 32421 I Quality : Skipped: false 1 cost 28.28146 refreshRate 0 processName com.android.todolist
+07-21 22:30:01.987   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:03.989   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:04.989   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:05.989   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:06.565  1046  1123 I SurfaceFlinger: [SF client] NEW(0xb400006f3fe288c0) for (32421:com.android.todolist)
+07-21 22:30:06.571 32421 32421 D WindowManager: Add to mViews: DecorView@614bfff[MainActivity],pkg= com.android.todolist
+07-21 22:30:06.577  1823  2397 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:06.579  1046  1123 D SurfaceFlinger: addClientLayer(149): seq(13117) name,3889dd com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:30:06.583  1823  2397 W WindowManager: Changing focus from Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{3889dd u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowManagerService.addWindow:1943 com.android.server.wm.Session.addToDisplayAsUser:212 
+07-21 22:30:06.593 32421 32421 I Quality : Skipped: false 3 cost 66.17004 refreshRate 0 processName com.android.todolist
+07-21 22:30:06.612  1823  2397 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:06.613  1046  1122 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#1](this:0xb400006f407c7a40,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1046:/system/bin/surfaceflinger)
+07-21 22:30:06.613  1046  1122 D SurfaceFlinger: addClientLayer(152): seq(13120) name,com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:30:06.646  1046  1046 D OplusLayer: setBuffer sequence=13120, name=com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:30:06.647 32421 32421 I Quality : Skipped: false 2 cost 37.727768 refreshRate 0 processName com.android.todolist
+07-21 22:30:06.653  1046  1123 D SurfaceFlinger: addClientLayer(152): seq(13121) name,Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:06.666  1823  2397 I FocusResolver: updateFocusedWindow, 3889dd com.android.todolist/com.android.todolist.MainActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+07-21 22:30:06.666  1823  2397 I FocusResolver:     displayId=0, name='3889dd com.android.todolist/com.android.todolist.MainActivity'
+07-21 22:30:06.684  1823  2397 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:06.687  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:06.829  1046  1046 D Layer   : reparent to null sequence=13121, seq[25], name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:06.830  1046  1046 D OplusLayer: ~Layer() sequence=13121, name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0 0xb400006f4037e000
+07-21 22:30:06.989   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:07.562  1823  6988 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:07.572  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:07.584  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:07.587  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:30:07.632  3060 32503 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:30:07.635  3060 29599 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:30:07.681  1046  1123 D SurfaceFlinger: addClientLayer(153): seq(13126) name,Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:08.135  1046  1046 D Layer   : reparent to null sequence=13126, seq[27], name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:08.136  1046  1046 D OplusLayer: ~Layer() sequence=13126, name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0 0xb400006f3ff96000
+07-21 22:30:08.990   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:14.725  1823  2878 W InputManager-JNI: Input channel object '3889dd com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+07-21 22:30:14.726  1046  1123 D SurfaceFlinger: addClientLayer(152): seq(13127) name,Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:14.728  1823  2878 W WindowManager: Changing focus from Window{3889dd u0 com.android.todolist/com.android.todolist.MainActivity EXITING} to Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowState.setupWindowForRemoveOnExit:2763 com.android.server.wm.WindowState.removeIfPossible:2731 
+07-21 22:30:14.770  1823  2878 I FocusResolver: updateFocusedWindow, e059e56 com.android.todolist/com.android.todolist.MainActivity on display 0, reason: setFocusedWindow, result:   FocusedWindows:
+07-21 22:30:14.770  1823  2878 I FocusResolver:     displayId=0, name='e059e56 com.android.todolist/com.android.todolist.MainActivity'
+07-21 22:30:14.791  1823  2878 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:14.822  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:14.902  1823  1856 D WindowManager: setParent old=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232},new=null,this window=Window{3889dd u0 com.android.todolist/com.android.todolist.MainActivity},callers=com.android.server.wm.WindowContainer.removeChild:627 com.android.server.wm.ActivityRecord.removeChild:4174 com.android.server.wm.ActivityRecord.removeChild:394 com.android.server.wm.WindowContainer.removeImmediately:683 com.android.server.wm.WindowState.removeImmediately:2543 com.android.server.wm.WindowState.destroySurface:3737 
+07-21 22:30:14.917  1046  1046 D Layer   : reparent to null sequence=13120, seq[4], name=com.android.todolist/com.android.todolist.MainActivity#1
+07-21 22:30:14.918  1046  1046 D Layer   : reparent to null sequence=13117, seq[12], name=3889dd com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:30:14.918  1046  1046 D Layer   : reparent to null sequence=13127, seq[25], name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0
+07-21 22:30:14.920  1046  1046 D OplusLayer: ~Layer() sequence=13127, name=Surface(name=3889dd com.android.todolist/com.android.todolist.MainActivity)/@0xe3bbb4c - animation-leash of window_animation#0 0xb400006f3ffc6000
+07-21 22:30:14.920  1046  1046 D OplusLayer: ~Layer() sequence=13117, name=3889dd com.android.todolist/com.android.todolist.MainActivity#0 0xb400006f40357000
+07-21 22:30:14.925  1046  1046 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#1](this:0xb400006f407c7a40,id:-1,api:0,p:-1,c:1046) onDestructor()
+07-21 22:30:14.925  1046  1046 D OplusLayer: ~Layer() sequence=13120, name=com.android.todolist/com.android.todolist.MainActivity#1 0xb400006f407c5000
+07-21 22:30:14.992   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:15.992   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:16.992   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:20.268 32421 32421 I Quality : Skipped: false 1 cost 29.060814 refreshRate 0 processName com.android.todolist
+07-21 22:30:21.666  1046  1046 D OplusLayer: ~Layer() sequence=13098, name=Surface(name=e059e56 com.android.todolist/com.android.todolist.MainActivity)/@0x1161a65 - animation-leash of starting_reveal#0 0xb400006f3fffb000
+07-21 22:30:21.995   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:22.994   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:24.996   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:26.061  1823  6988 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras) mCallingUid=10479} from uid 10479
+07-21 22:30:26.063  1823  6988 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+07-21 22:30:26.063  1823  6988 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+07-21 22:30:26.063  1823  6988 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 32421 ,sourceStack: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=1}
+07-21 22:30:26.065  1823  6988 E WindowManager: makeSurface ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232} windowType 2
+07-21 22:30:26.066  1046  1805 D SurfaceFlinger: addClientLayer(149): seq(13133) name,ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity#0
+07-21 22:30:26.067  1823  6988 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}; parent: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2}
+07-21 22:30:26.067  1823  6988 D TaskExtImpl: add ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(1) }
+07-21 22:30:26.068  1823  6988 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=null, record:ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.068  1823  6988 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+07-21 22:30:26.068  1823  6988 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+07-21 22:30:26.069  1823  6988 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 32421 ,sourceStack: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2}
+07-21 22:30:26.070  1823  6988 I PowerHalWrapper: <amsBoostResume> last:com.android.todolist, next:com.android.todolist 
+07-21 22:30:26.073 32421 32421 I Quality : Skipped: true 3 cost 62.22607 refreshRate 0 processName com.android.todolist
+07-21 22:30:26.077  1046  1805 I SurfaceFlinger: [SF client] NEW(0xb400006f38c3b880) for (32421:com.android.todolist)
+07-21 22:30:26.080 32421 32421 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{ecaf261 V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout},pkg= com.android.todolist
+07-21 22:30:26.083  1823  6988 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:26.095  1823  6988 I PowerHalWrapper: amsBoostNotify pid:32421,activity:com.android.todolist.ListActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+07-21 22:30:26.095  1823  6988 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.095   959   969 I mtkpower@impl: [notifyAppState] act com.android.launcher.Launcher => com.android.todolist.ListActivity
+07-21 22:30:26.096  1823  6988 W WindowManager: Changing focus from Window{e059e56 u0 com.android.todolist/com.android.todolist.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:4615 com.android.server.wm.Task.onActivityStateChanged:2365 
+07-21 22:30:26.096  1823  6988 D CompactWindowManagerService: notifyCompactWindowState task: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2}; hasFocus: false
+07-21 22:30:26.101  1823  6988 I PowerHalWrapper: amsBoostNotify pid:32421,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+07-21 22:30:26.104  1823  6988 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:26.142 32421 32636 D libMEOW : applied 1 plugins for [com.android.todolist]:
+07-21 22:30:26.217 32421 32421 I Quality : ActivityThread: activityStart delay 76 com.android.todolist 32421
+07-21 22:30:26.219  1046  1123 I SurfaceFlinger: [SF client] NEW(0xb400006f70ebac80) for (32421:com.android.todolist)
+07-21 22:30:26.222 32421 32421 D WindowManager: Add to mViews: DecorView@6c57b48[ListActivity],pkg= com.android.todolist
+07-21 22:30:26.225  1823  2878 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:26.226  1046  1122 D SurfaceFlinger: addClientLayer(153): seq(13137) name,431d394 com.android.todolist/com.android.todolist.ListActivity#0
+07-21 22:30:26.230 32421 32421 I Quality : Skipped: false 7 cost 120.26153 refreshRate 0 processName com.android.todolist
+07-21 22:30:26.239  1823  2878 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:26.239  1046  1122 I BufferQueueDebug: [com.android.todolist/com.android.todolist.ListActivity#0](this:0xb400006f38c63a40,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1046:/system/bin/surfaceflinger)
+07-21 22:30:26.240  1046  1122 D SurfaceFlinger: addClientLayer(154): seq(13138) name,com.android.todolist/com.android.todolist.ListActivity#0
+07-21 22:30:26.244  1823  2878 W WindowManager: Changing focus from null to Window{431d394 u0 com.android.todolist/com.android.todolist.ListActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.WindowManagerService.relayoutWindow:2606 com.android.server.wm.Session.relayout:247 
+07-21 22:30:26.244  1823  2878 D CompactWindowManagerService: notifyCompactWindowState task: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2}; hasFocus: true
+07-21 22:30:26.244  1823  2878 D ActivityTaskManager: onWindowFocusChanged Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2} would transfer to compact
+07-21 22:30:26.247  1823  2878 I WindowManager: Relayout Window{431d394 u0 com.android.todolist/com.android.todolist.ListActivity}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 720 requestedHeight = 1600 outFrames = ClientWindowFrames{frame=[0,0][720,1600] display=[0,0][720,1600] backdrop=[0,0][720,1600]} outSurfaceControl = Surface(name=com.android.todolist/com.android.todolist.ListActivity)/@0x4e380df
+07-21 22:30:26.271  1823  1856 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.271  1823  1856 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}; replacedMoveAnimation = -1
+07-21 22:30:26.271  1823  1856 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}; replacedMoveAnimation = -1
+07-21 22:30:26.271  1823  1856 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}; replacedMoveAnimation = -1
+07-21 22:30:26.272  1823  1856 E WindowManager: makeSurface ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232} windowType 2
+07-21 22:30:26.273  1046  1122 D SurfaceFlinger: addClientLayer(157): seq(13141) name,Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-leash of app_transition#0
+07-21 22:30:26.274  1823  1856 E WindowManager: makeSurface ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232} windowType 2
+07-21 22:30:26.274  1046  1122 D SurfaceFlinger: addClientLayer(158): seq(13142) name,Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-bounds#0
+07-21 22:30:26.275  1823  1856 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.277  1823  1856 E WindowManager: makeSurface ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232} windowType 2
+07-21 22:30:26.278  1046  1122 D SurfaceFlinger: addClientLayer(159): seq(13143) name,Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-leash of app_transition#0
+07-21 22:30:26.279  1823  1856 E WindowManager: makeSurface ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232} windowType 2
+07-21 22:30:26.279  1046  1046 D OplusLayer: setBuffer sequence=13138, name=com.android.todolist/com.android.todolist.ListActivity#0
+07-21 22:30:26.281  1046  1122 D SurfaceFlinger: addClientLayer(160): seq(13144) name,Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-bounds#0
+07-21 22:30:26.282  1823  1856 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:30:26.283  1823  1856 I Quality : LaunchTime2.0: com.android.todolist/.ListActivity 2 211
+07-21 22:30:26.284  1823  1852 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +223ms
+07-21 22:30:26.287 32421 32421 I Quality : Skipped: false 2 cost 44.90647 refreshRate 0 processName com.android.todolist
+07-21 22:30:26.299  1823  3519 I FocusResolver: updateFocusedWindow, 431d394 com.android.todolist/com.android.todolist.ListActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+07-21 22:30:26.299  1823  3519 I FocusResolver:     displayId=0, name='431d394 com.android.todolist/com.android.todolist.ListActivity'
+07-21 22:30:26.312  1823  3519 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:26.315  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.todolist fieldId=-1 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:26.694  1823  1856 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{80c691a u0 com.android.todolist/.MainActivity t10232}
+07-21 22:30:26.695  1823  1856 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.695  1823  1856 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity t10232}
+07-21 22:30:26.697  1823  1855 I PowerHalWrapper: amsBoostNotify pid:32421,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+07-21 22:30:26.710  1046  1046 D Layer   : reparent to null sequence=13143, seq[73], name=Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-leash of app_transition#0
+07-21 22:30:26.710  1046  1046 D Layer   : reparent to null sequence=13144, seq[2], name=Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-bounds#0
+07-21 22:30:26.710  1046  1046 D Layer   : reparent to null sequence=13141, seq[60], name=Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-leash of app_transition#0
+07-21 22:30:26.710  1046  1046 D Layer   : reparent to null sequence=13142, seq[2], name=Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-bounds#0
+07-21 22:30:26.711  1046  1046 D OplusLayer: ~Layer() sequence=13144, name=Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-bounds#0 0xb400006f365f9000
+07-21 22:30:26.712  1046  1046 D OplusLayer: ~Layer() sequence=13143, name=Surface(name=ActivityRecord{80c691a u0 com.android.todolist/.MainActivity)/@0xe3b49c4 - animation-leash of app_transition#0 0xb400006f38da4000
+07-21 22:30:26.712  1046  1046 D OplusLayer: ~Layer() sequence=13142, name=Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-bounds#0 0xb400006f407c5000
+07-21 22:30:26.712  1046  1046 D OplusLayer: ~Layer() sequence=13141, name=Surface(name=ActivityRecord{abb49b8 u0 com.android.todolist/.ListActivity)/@0x55e0418 - animation-leash of app_transition#0 0xb400006f40199000
+07-21 22:30:26.724  1823  3519 D OplusDisplayPolicy: com.android.todolist, no change cutoutMode: 0
+07-21 22:30:26.742  1046  1046 D Layer   : reparent to null sequence=13095, seq[6], name=com.android.todolist/com.android.todolist.MainActivity#0
+07-21 22:30:26.744  1046  1046 I BufferQueueDebug: [com.android.todolist/com.android.todolist.MainActivity#0](this:0xb400006f3feb8a40,id:-1,api:0,p:-1,c:1046) onDestructor()
+07-21 22:30:26.744  1046  1046 D OplusLayer: ~Layer() sequence=13095, name=com.android.todolist/com.android.todolist.MainActivity#0 0xb400006f3feb6000
+07-21 22:30:26.996   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:27.997   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:28.077  1823  2213 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@df2dabf
+07-21 22:30:28.483  1823  6988 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:28.486  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:28.522  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:28.524  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:30:28.543 32421 32421 I Quality : Skipped: true 1 cost 18.43436 refreshRate 0 processName com.android.todolist
+07-21 22:30:28.603  3060 32594 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:30:28.607  3060 29601 W ubt     : Infinite Data has no result for com.android.todolist [CONTEXT service_id=177 ]
+07-21 22:30:28.643 32421 32421 I Quality : Skipped: true 4 cost 68.24675 refreshRate 0 processName com.android.todolist
+07-21 22:30:28.996   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:29.997   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:32.228  1823  1999 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:32.238 32421 32421 I Quality : Skipped: false 1 cost 24.586468 refreshRate 0 processName com.android.todolist
+07-21 22:30:32.241  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, true)
+07-21 22:30:32.267 32421 32421 I Quality : Skipped: false 1 cost 19.799358 refreshRate 0 processName com.android.todolist
+07-21 22:30:32.999   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:33.665  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:33.682  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:30:34.999   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:36.125  1823  2878 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:36.136  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, true)
+07-21 22:30:37.001   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:37.369  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:37.387  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:30:39.002   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:40.393  1823  3519 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:40.401  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, true)
+07-21 22:30:41.003   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:42.003   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:42.996  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2036 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, false)
+07-21 22:30:43.015  7186  7186 I AndroidIME: AbstractIme.onActivate():85 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[], IncognitoMode = false, DeviceLocked = false
+07-21 22:30:44.004   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:45.004   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:45.487  1823  2213 D InputMethodManagerService: isSecurity: attribute.packageName=com.android.todolist mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+07-21 22:30:45.495  7186  7186 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1909 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=[]}, true)
+07-21 22:30:46.004   959  1029 I UxUtility: notifyForegroundApp pack:com.android.todolist, uid:10479
+07-21 22:30:46.580  1823  2878 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity mCallingUid=10479} from uid 10479
+07-21 22:30:46.581  1823  2878 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+07-21 22:30:46.581  1823  2878 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+07-21 22:30:46.582  1823  2878 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 32421 ,sourceStack: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=2}
+07-21 22:30:46.582  1823  2878 E WindowManager: makeSurface ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity t10232} windowType 2
+07-21 22:30:46.583  1046  1979 D SurfaceFlinger: addClientLayer(144): seq(13155) name,ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity#0
+07-21 22:30:46.585  1823  2878 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity t10232}; parent: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=3}
+07-21 22:30:46.585  1823  2878 D TaskExtImpl: add ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity t10232} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(2) }
+07-21 22:30:46.586  1823  2878 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=null, record:ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity t10232}
+07-21 22:30:46.586  1823  2878 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+07-21 22:30:46.586  1823  2878 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+07-21 22:30:46.586  1823  2878 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 32421 ,sourceStack: Task{96adc4b #10232 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=3}
+07-21 22:30:46.587  1823  2878 I PowerHalWrapper: <amsBoostResume> last:com.android.todolist, next:com.android.todolist 
+07-21 22:30:46.601  1823  2878 I PowerHalWrapper: amsBoostNotify pid:32421,activity:com.android.todolist.MainActivity, package:com.android.todolist, mProcessCreatePackcom.android.todolist 
+07-21 22:30:46.601  1823  2878 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{42ec450 u0 com.android.todolist/.MainActivity t10232}
+07-21 22:30:46.601   959   969 I mtkpower@impl: [notifyAppState] act com.android.todolist.ListActivity => com.android.todolist.MainActivity
+07-21 22:30:46.602  1823  2878 W WindowManager: Changing focus from Window{431d394 u0 com.android.todolist/com.android.todolist.ListActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:492 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6016 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:4
