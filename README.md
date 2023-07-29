@@ -27,18 +27,18 @@ response:
 ```
 
 Task:
-Change url in `Charles Proxy` so you can change the name of  `Postman` request to your name that you create in `Charles Proxy`. Do this with `Rewrite` and with `Breakpoint`. 
+Change url in `Charles Proxy` so you can change the name of  `Postman` request to your name that you create in `Charles Proxy`. Do this with `Rewrite` and with `Breakpoints`. 
 
 
 ## How to do Ex_1:
 Use this URI in Charles `http://162.55.220.72:5007/get_method?name=Mariia&age=35` 
 In  `BreakPoints` change response text in `Edit Response` from `Mariia` to `Dariia`.
-Or use can sniff the request. Go to `Edit request` and change the name. 
+Or you can sniff the request. Go to `Edit request` and change the name. 
 
 In `Rewrite` create a sniffing in `Modify Query Param` in request:   
 `Match` - that will be changed (Mariia)   
 `Replace` - the new pattern (Dariia)    
-Write 'name' of variable in Match and in Replace fields.  
+Write 'name' of variable in `Match` and in `Replace` fields.  
 
 ## Ex_2:
 ```
@@ -98,7 +98,8 @@ Sniff request parameters in Charles so that Postman receive response with anothe
 ## How to do Ex_3:
 Use this URI in Charles `http://162.55.220.72:5007/object_info_1?name=Mariia&age=35&weight=56` 
 
-In  `BreakPoints` change  name / daily_food / daily_sleep in "Edit Response".    
+In  `BreakPoints` change  name / daily_food / daily_sleep in "Edit Response".  
+
 In `Rewrite` sniff `Modify Query Param` in request:   
 `Match` - that will be changed 
 + name : name
@@ -107,7 +108,7 @@ In `Rewrite` sniff `Modify Query Param` in request:
 `Replace` - the new pattern:
 + name: name
 + value: Rose
-
+or you can change it in `Body` Response
 In `Rewrite` sniff  `Body` Response
 1. daily food: 
 Match:  0.672
@@ -144,8 +145,8 @@ response:
 
 Task:
    
-Make Charles do so that server showed 500 Status Code.   
-Make Charles do so that server showed 405 Status Code. 
++ Make Charles do so that server showed 500 Status Code.   
++ Make Charles do so that server showed 405 Status Code. 
 Do this with `Rewrite` and with `Breakpoints`. 
 ## How to do Ex_4:
 
@@ -162,12 +163,12 @@ In `BreakPoints` create a sniffing rule.
 
 Create sniffing rule in `Rewrite`.
 1. to get 500 error from server change values of  parameters to different type in `Modify Query Param`:
-Match: name: Salary; value: _ (empty)
-Replace: name: salary; value: sal
++ Match: name: Salary; value: _ (empty)
++ Replace: name: salary; value: sal
 
 2. to get 405 error from server change METHOD  in URL: 
-Match : /object_info_3
-Replace: /user_info_3
++ Match : /object_info_3
++ Replace: /user_info_3
 
 ## Ex_5:
 ```
@@ -210,16 +211,17 @@ Testing frontend:
   
 Testing backend:  
 1. To get 405 error from server change METHOD  in URL: 
-Match : /object_info_4
-Replace: /user_info_3
-2.  For sniffing salary in request in Rewrite choose `Modify Query Param` in  request:    
-	Match: 
-    + name: salary
-    + value: 1500
++ Match : /object_info_4
++ Replace: /user_info_3
+2.  For sniffing salary in request choose `Modify Query Param` with  request:
+   
+Match: 
++ name: salary
++ value: 1500
 
-    Replace: 
-    + name: salary
-    + value: 5000 
+Replace: 
++ name: salary
++ value: 5000 
 
 
 ## Ex_6:
@@ -259,9 +261,9 @@ Do this with `Rewrite` and with `Breakpoints`.
 `Rewrite`:
 1. In `BODY` `Response`:    
 
-	Match - qa_salary_after_1.5_year   
-	Raplace - qa_salary_after_1.5_month  
++ Match - qa_salary_after_1.5_year   
++ Replace - qa_salary_after_1.5_month  
 and
 2. In `BODY` `Response`: 
-	Match - 5700   
-	Raplace - 3000  
++ Match - 5700   
++ Replace - 3000  
