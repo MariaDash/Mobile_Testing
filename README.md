@@ -213,14 +213,15 @@ Testing backend:
 1. To get 405 error from server change METHOD  in URL: 
 + Match : /object_info_4
 + Replace: /user_info_3
-2.  For sniffing salary in request choose `Modify Query Param` with  request:    
+2.  For sniffing salary in request choose `Modify Query Param` with  request:
+   
 Match: 
-    + name: salary
-    + value: 1500
++ name: salary
++ value: 1500
 
 Replace: 
-    + name: salary
-    + value: 5000 
++ name: salary
++ value: 5000 
 
 
 ## Ex_6:
