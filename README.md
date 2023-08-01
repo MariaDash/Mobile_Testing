@@ -117,10 +117,14 @@ In `Rewrite` sniff `Modify Query Param` in request:
 or you can change it in `Body` Response
 
 In `Rewrite` sniff  `Body` Response
-1. daily food: 
+
+1. name: 
+Match:  Mariia
+Replace: Denny
+3. daily food: 
 Match:  0.672
 Replace: 57   
-2. daily_sleep 
+4. daily_sleep 
 Match: 140
 Replace: 55
 
@@ -172,7 +176,11 @@ Create sniffing rule in `Rewrite`.
 1. to get 500 error from server change values of  parameters to different type in `Modify Query Param`:
 + Match: name: Salary; value: _ (empty)
 + Replace: name: salary; value: sal
+  
+or we can delete query param. Choose option `Remove Query Param`:
 
++ Match: name: Salary; value: 1500
+  
 2. to get 405 error from server change METHOD  in URL: 
 + Match : /object_info_3
 + Replace: /user_info_3
@@ -212,7 +220,7 @@ Use this URI: `http://162.55.220.72:5007/object_info_4?name=Mariia&age=35&salary
 Testing frontend:
 1. To get 405 error in `Rewrite` in `Response Status` choose 405 instead 200 
 
-* To change salary*2 of response use `BODY` of `Response` :   
+2. To change salary*2 of response use `BODY` of `Response` :   
 	Match -3000 (salary * 2) 
 	Replace - 15000  
   
