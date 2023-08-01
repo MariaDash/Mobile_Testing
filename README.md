@@ -68,10 +68,16 @@ Do this with `Rewrite` and with `Breakpoints`.
 Use this URI in Charles `http://162.55.220.72:5007/user_info_3`
 In  `BreakPoints`  change `u_salary_1_5_year` in `Edit Response`
 
-In `Rewrite` change `BODY Response`:   
-`Match` - that will be changed ("u_salary_1_5_year":6000)   
-`Replace` - the new pattern ("u_salary_1_5_year":1000)    
-	
+In `Rewrite`
+
+Opt.1: change `BODY Response`:   
++ `Match` - "u_salary_1_5_year":6000   
++ `Replace`-  "u_salary_1_5_year":1000  
+
+Opt.2: 	change `Body Request`:
++ `Match`-  1500   
++ `Replace` -300   
+
 ## Ex_3:
 ```
 Method: GET
@@ -109,6 +115,7 @@ In `Rewrite` sniff `Modify Query Param` in request:
 + name: name
 + value: Rose
 or you can change it in `Body` Response
+
 In `Rewrite` sniff  `Body` Response
 1. daily food: 
 Match:  0.672
