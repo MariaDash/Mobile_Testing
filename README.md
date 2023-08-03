@@ -1,7 +1,7 @@
 # ADB Debugging
 ## 1. Show your connected devices
 
-Mac, Windows Gitbash:
+Mac, Windows Git Bash:
 ```
 C:\Users\Admin>adb devices
 List of devices attached
@@ -17,7 +17,7 @@ Mac:
 ```
 adb shell pm list packages -f | grep todolist
 ``` 
-Windows Gitbash:
+Windows Git Bash:
 ```
 C:\Users\Admin>adb shell pm list packages -f todolist
 package:/data/app/~~CEsoYwu0ETQ2HLljotAgnQ==/com.android.todolist-RVvUUNRbza2VHEPa2KBNZg==/base.apk=com.android.todolist
@@ -28,7 +28,7 @@ Windows PowerShell:
 ``` 
 ## 3. Install .apk file on the devices from your computer
 
-Mac, Windows Gitbash:
+Mac, Windows Git Bash:
 ```
 C:\Users\Admin>adb install C:\Users\Admin\Downloads\TodoList.apk
 Success
@@ -39,7 +39,7 @@ Windows PowerShell:
 ```
 ## 4. Create a screenshot and save on your computer in one string command
 
-Mac, Windows Gitbash:
+Mac, Windows Git Bash:
 ```
 C:\Users\Admin>adb exec-out screencap –p > C:/Documents/screencap.png
 ```
@@ -57,7 +57,7 @@ Windows PowerShell:
 ```  
 .\adb logcat -d | findstr todolist
 ```
-Windows Gitbash: 
+Windows Git Bash: 
 ```
 adb logcat |grep todolist
 ```
@@ -70,12 +70,12 @@ Windows PowerShell:
 ```  
 .\adb logcat -d | findstr todolist > C:/Documents/todolist.log 
 ```
-Windows Gitbash: 
+Windows Git Bash: 
 ```
 C:\Users\Admin>adb logcat |grep todolist > C:/Documents/todolist.log 
 ```
 ## 7. Delete todolist app from your device
-Mac, Windows Gitbash:
+Mac, Windows Git Bash:
 ```
 C:\Users\Admin>adb uninstall com.android.todolist
 ```
@@ -83,4 +83,4 @@ Windows PowerShell:
 ```  
 .\adb uninstall com.android.todolist
 ```
-*-this syntax is used to windows PowerShell if Gitbash is not installed
+*-this syntax is used to windows PowerShell if Git Bash is not installed
