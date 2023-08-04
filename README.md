@@ -1,4 +1,4 @@
-# Fiddler HomeWork
+# Fiddler Homework
 
 ## Ex_0: Filter requests by ip (Contains:162.55.220.72)
 
