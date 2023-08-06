@@ -1,7 +1,7 @@
 # Fiddler Homework
 
 ## Ex_0: Filter requests by ip (Contains:162.55.220.72)
-
+Enable `System Proxy`
 ```
 Protocol: http
 IP: 162.55.220.72
@@ -32,11 +32,17 @@ Create rule:
 ### How to do:
 Here we will change value of parameter `name` in request:
 
-+ Enable Rules.
+Opt.1. With `Update Query Params`
++ Enable `Rules`.
 + Add rule:
 + Conditions: URL contains `http://162.55.220.72:5007`
-+ Actions: Update Query Params / Find and replace (Mariia -> Dariya)
++ Actions: Update Query Params, Key: name / Find and replace (Mariia -> Dariya)
 
+Opt.2.With `URL`
++ Enable `Rules`.
++ Add rule:
++ Conditions: URL contains `http://162.55.220.72:5007`
++ Actions: Update URL / Find and replace (Mariia -> Dariya)
 ### Task:
 Create rule: 
 * Sniff URL to change request age that you wrote in Postman.
@@ -44,10 +50,16 @@ Create rule:
 ### How to do:
 Here we will change value of parameter `age` in request:
 
+Opt.1. With `Update Query Params`
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007`
-+ Actions: Update Query Params / Find and replace (35 -> 55)
++ Actions: Update Query Params , Key: age/ Find and replace (35 -> 55)
 
+Opt.2.With `URL`
++ Enable `Rules`.
++ Add rule:
++ Conditions: URL contains `http://162.55.220.72:5007`
++ Actions: Update URL / Find and replace ((35 -> 55)
 
 ## Ex_2:
 ```
@@ -81,9 +93,19 @@ Here we will change value of parameters `name`, `age`, `salary` and delete param
 + Actions: Update Request Body/ Find and replace :
 1. Mariia -> Dariiya
 2. 35->55
-3. 1500->3000
-4. "age":35->Null (empty) or Remove "age":35
+3. 1500->5000
+4. to get 500 error I can remove all body, using `Update Request Body/Remove` option
+   
+   or `Update Request Body/Set Value/JSON`
+```
+Content-Disposition: form-data; name="name"
 
+Mariia
+
+Content-Disposition: form-data; name="salary"
+
+1500
+```
 ### Task:
 Create rules:
  - In response change children to neighbors. 
