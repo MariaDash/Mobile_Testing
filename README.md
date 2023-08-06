@@ -24,6 +24,7 @@ response:
     "Str"
 ]
 ```
+***!!!Send the request first before executing rules!!!***
 
 ### Task:
 Create rule:   
@@ -35,7 +36,7 @@ Here we will change value of parameter `name` in request:
 Opt.1. With `Update Query Params`
 + Enable `Rules`.
 + Add rule:
-+ Conditions: URL contains `http://162.55.220.72:5007`
++ Conditions: URL contains `http://162.55.220.72:5007` we can use `contains` or `is equal to`
 + Actions: Update Query Params, Key: name / Find and replace (Mariia -> Dariya)
 
 Opt.2.With `URL`
@@ -78,6 +79,7 @@ response:
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 ```
+***!!!Send the request first before executing rules!!!***
 ### Task:
 Create rules:
 1. Sniff request body to change name that comes from Postman.
@@ -95,8 +97,8 @@ Here we will change value of parameters `name`, `age`, `salary` and delete param
 2. 35->55
 3. 1500->5000
 4. to get 500 error I can remove all body, using `Update Request Body/Remove` option
-   
-   or `Update Request Body/Set Value/JSON`
+
+or `Update Request Body/Set Value/JSON`
 ```
 Content-Disposition: form-data; name="name"
 
@@ -120,12 +122,29 @@ Here we will change name of parameter `children`, value of parameter `u_salary_1
 + Conditions: `URL http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace 
 1. children -> neighbors
-2. "u_salary_1_5_year":6000 -> "u_salary_1_5_year":12000
-3. opt.1. "salary":2000, -> Null (empty)
-   opt.2. remove "salary":2000
+2. 6000 -> 12000
+3. Deleting `salary`:
+  
+Opt.1. Use Manual response:
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 116
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Sun, 06 Aug 2023 20:34:11 GMT
 
-
-
+{"age":"35",
+"family":{"children":
+[["Alex",24],["Kate",12]],
+"u_salary_1_5_year":6000},
+"name":"Mariia"
+}
+   
+```
+ 
+Opt.2.  Use `Update Response Body/Find and replace `
+   
+"salary":1500, ->  (empty)
 ## Ex_3:
 ```
 Method: GET
@@ -142,6 +161,7 @@ response:
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
 ```
+***!!!Send the request first before executing rules!!!***
 ### Task:
 Create rules:
  - Sniff URL to change name that comes from Postman to different name in request.
@@ -153,11 +173,10 @@ Here we will change value of parameter `name`,`age`, `salary` and remove paramet
 
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007`
-+ Actions: Update Query Params / Find and replace
++ Actions: `Update Query Params / Find and replace` or `Set value`
 1. Mariia -> Dariiya
 2. 35 -> 55
-3. opt.1  "weight":56 -> Null
-   opt.2. remove "weight":56
+3. `Update Query Params/Remove` : weight
 
 
 ### Task:
@@ -174,10 +193,24 @@ Here we will change `Response Body`:
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace
 1. opt.1 "daily_food": 0.672 -> Null
-   opt.2  remove "daily_food": 0.672
-2. 0.672 -> 1.1
-3. "daily_sleep" -> "sleep"
-4. "daily_sleep": 140.0 -> "daily_sleep": 300.0
+   opt.2. use `Manual response`:
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 71
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Sun, 06 Aug 2023 21:18:17 GMT
+
+{
+    "age": 35,
+    "daily_sleep": 140.0,
+    "name": "Mariia"
+}
+```
+`Update Response Body / Find and replace`:
+3. 0.672 -> 1.1
+4. "daily_sleep" -> "sleep"
+5. 140.0 -> 300.0
 
 ## Ex_4:
 ```
@@ -201,6 +234,7 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 ```
+***!!!Send the request first before executing rules!!!***
 ### Task:
 Create rules:
  - Sniff url to change name that comes from Postman to different name in request.
@@ -260,7 +294,7 @@ response:
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 ```
-
+***!!!Send the request first before executing rules!!!***
 ### Task:
 Create rules:
  - Sniff url to change name  that comes from Postman to different name in request.
@@ -317,7 +351,7 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 ```
-
+***!!!Send the request first before executing rules!!!***
 ### Task:
 Create rules:
  - Sniff body request to change age that you wrote in Postman.
