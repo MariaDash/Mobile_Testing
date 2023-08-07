@@ -1,6 +1,6 @@
 # Fiddler Homework
 
-## Ex_0: Filter requests by ip (Contains:162.55.220.72)
+## Ex_0: Filter requests by ip (Contains: 162.55.220.72)
 Enable `System Proxy`
 ```
 Protocol: http
@@ -533,29 +533,28 @@ Date: Mon, 07 Aug 2023 08:40:51 GMT
     "start_qa_salary": 1500
 }   
 ```
-4.  Opt.1 in `Update Response Body`
+4. In `Manual response` change the whole response
 ```
-   "person": {
-        "u_age": 35,
-        "u_name": [
-            "Mariia",
-            1500,
-            35
-        ],
-        "u_salary_5_years": 6300.0
-    }
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 452
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Mon, 07 Aug 2023 08:52:14 GMT
+
+{
+   <person>
+        <u_age>35</u_age>
+        <u_name>
+            <name>Maiia</name>
+            <salary>1500</salary>
+            <age>35</age>
+        </u_name>
+        <u_salary_5_years>6300.0</u_salary_5_years>
+    </person>, 
+    "qa_salary_after_1.5_year": 4950.0,
+    "qa_salary_after_12_months": 4050.0000000000005,
+    "qa_salary_after_3.5_years": 5700.0,
+    "qa_salary_after_6_months": 3000,
+    "start_qa_salary": 1500
+}
 ```
-Change to
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-   <u_age>35</u_age>
-   <u_name>
-      <element>Mariia</element>
-      <element>1500</element>
-      <element>35</element>
-   </u_name>
-   <u_salary_5_years>6300.0</u_salary_5_years>
-</root>
-```
-   Opt.2 In `Manual response` change the whole response
