@@ -506,30 +506,32 @@ Here we will change `Response Body`:
 + Actions: Update Response Body / Find and replace
 1. "qa_salary_after_6_months" -> "qa_salary_after_10_months"
 2. "qa_salary_after_1.5_year": 4950.0 ->  "qa_salary_after_1.5_year": 5000
-3. opt.1  
+3. opt.1  `Update Response Body/Set value/JSON`:
 ```
-"person": {
-        "u_age": 35,
-        "u_name": [
-            "Mariia",
-            1500,
-            35
-        ],
-        "u_salary_5_years": 6300.0
-    }
+{
+    
+    "qa_salary_after_1.5_year": 4950.0,
+    "qa_salary_after_12_months": 4050.0000000000005,
+    "qa_salary_after_3.5_years": 5700.0,
+    "qa_salary_after_6_months": 3000,
+    "start_qa_salary": 1500
+}
 ```
-Change to `Null`
-   opt.2  remove 
+   opt.2  Use `Manual Response`:
 ```
-   "person": {
-        "u_age": 35,
-        "u_name": [
-            "Mariia",
-            1500,
-            35
-        ],
-        "u_salary_5_years": 6300.0
-    }
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 211
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Mon, 07 Aug 2023 08:40:51 GMT
+
+{
+    "qa_salary_after_1.5_year": 4950.0,
+    "qa_salary_after_12_months": 4050.0000000000005,
+    "qa_salary_after_3.5_years": 5700.0,
+    "qa_salary_after_6_months": 3000,
+    "start_qa_salary": 1500
+}   
 ```
 4.  Opt.1 in `Update Response Body`
 ```
