@@ -5,8 +5,8 @@
 ### 4. Find the needed folder
 ### 5. Open `filename.xcodeproj`. File is opened.
 ### 6. Choose `simulator` to build the application on.
-1. In the header of the window in drop down list choose needed `simulator`/
-2. Check `General` settings.
-3. Push "play" button in the header of the window.
-4. `Simulator` is opening.
+### 7. In the header of the window in drop down list choose needed `simulator`/
+### 8. Check `General` settings.
+### 9.  Push "play" button in the header of the window.
+### 10. `Simulator` is opening.
    
