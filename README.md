@@ -25,7 +25,7 @@ response:
 ]
 ```
 ***!!!Send the request first before executing rules!!!***
-
++ Enable `Rules`.
 ### Task:
 Create rule:   
 * Sniff URL to change request name that you wrote in Postman.
@@ -34,13 +34,11 @@ Create rule:
 Here we will change value of parameter `name` in request:
 
 Opt.1. With `Update Query Params`
-+ Enable `Rules`.
 + Add rule:
 + Conditions: URL contains `http://162.55.220.72:5007` we can use `contains` or `is equal to`
 + Actions: Update Query Params, Key: name / Find and replace (Mariia -> Dariya)
 
 Opt.2.With `URL`
-+ Enable `Rules`.
 + Add rule:
 + Conditions: URL contains `http://162.55.220.72:5007`
 + Actions: Update URL / Find and replace (Mariia -> Dariya)
@@ -57,7 +55,6 @@ Opt.1. With `Update Query Params`
 + Actions: Update Query Params , Key: age/ Find and replace (35 -> 55)
 
 Opt.2.With `URL`
-+ Enable `Rules`.
 + Add rule:
 + Conditions: URL contains `http://162.55.220.72:5007`
 + Actions: Update URL / Find and replace ((35 -> 55)
@@ -192,8 +189,9 @@ Here we will change `Response Body`:
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace
-1. opt.1 "daily_food": 0.672 -> Null
-   opt.2. use `Manual response`:
+1.  opt.1 "daily_food": 0.672 -> (empty)
+   
+    opt.2. use `Manual response`:
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -208,9 +206,12 @@ Date: Sun, 06 Aug 2023 21:18:17 GMT
 }
 ```
 `Update Response Body / Find and replace`:
+
 3. 0.672 -> 1.1
-4. "daily_sleep" -> "sleep"
-5. 140.0 -> 300.0
+  
+5. "daily_sleep" -> "sleep"
+  
+7. 140.0 -> 300.0
 
 ## Ex_4:
 ```
@@ -261,6 +262,7 @@ Here we will change `Response Body`:
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace
 1. opt.1 "salary": 1500 -> (empty)
+   
 opt.2. with `Manual Response`
 ```
 HTTP/1.0 200 OK
@@ -310,9 +312,11 @@ Date: Sun, 06 Aug 2023 22:17:08 GMT
 }: 
 ```
  
-3. In request: Opt.1 Change `URL` from GET to POST request (take POST URL from Postman)
-               Opt. 2 In  `Update request header` change method from `GET` to `POST`
-   In response:
+3. **In request**: Opt.1 Change `URL` from GET to POST request (take POST URL from Postman)
+   
+                   Opt. 2 In  `Update request header` change method from `GET` to `POST`
+   
+**In response**:
 1) Use `Manual Response`
 ```
 HTTP/1.0 405 Method Not Allowed
@@ -350,8 +354,8 @@ Date: Sun, 06 Aug 2023 22:28:53 GMT
     "salary": 1500
 }
 ```
-   In `Update Response Header` change status code from `200` to `405`
 2) With `Update Status Code`
+
 Choose `405 Method not Allowed`
 ## Ex_5:
 ```
@@ -396,8 +400,7 @@ Create rules:
 Here we will change `Response Body`:
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007`
-+ Actions: Update Response Body / Find and replace
-1.opt.1 with `Manual response`:
+1. with `Manual response`:
 ```
 HTTP/1.0 200 OK
 Content-Type: application/json
@@ -411,11 +414,12 @@ Date: Mon, 07 Aug 2023 07:25:00 GMT
    }
 
 ```
- opt.2 "salary": 1500 -> (empty)
- 
-2. opt.1 "salary": 1500 -> Null
-   opt.2  remove "salary": 1500
-3. "salary": [ 1500, "3000", "4500"] -> "salary": "a_lot"
++ Actions: `Update Response Body / Find and replace`
+2. opt.1 "salary": 1500 -> (empty)
+   opt.2  in `Update Query Params` `remove/key:salary`
+3. `Update Response Body / Find and replace`
+
+   "salary": [ 1500, "3000", "4500"] -> "salary": "a_lot"
 4. In request: Opt.1 Change `URL` from GET to POST request (take from Postman)
                Opt. 2 In  `Update request header` change method from `GET` to `POST`
    In response: In `Update Response Header` change status code from `200` to `405`
