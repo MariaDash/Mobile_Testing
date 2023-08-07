@@ -85,7 +85,7 @@ Create rules:
 4. Sniff request body to delete age that comes from Postman.  (Get 500 error)
 
 ### How to do:
-Here we will change value of parameters `name`, `age`, `salary` and delete parameter `age` in  Request Body:
+Here we will change value of parameters `name`, `age`, `salary` and delete parameter `age` in  `Request Body`:
 
 + Add rule:
 + Conditions: `URL: http://162.55.220.72:5007`
@@ -113,7 +113,7 @@ Create rules:
 
 ### How to do:
 
-Here we will change name of parameter `children`, value of parameter `u_salary_1_5_year` and delete `salary` parameter in Response Body
+Here we will change name of parameter `children`, value of parameter `u_salary_1_5_year` and delete `salary` parameter in `Response Body`
 
 + Add rule:
 + Conditions: `URL http://162.55.220.72:5007`
@@ -487,11 +487,11 @@ Here we will change value of parameter `name`,`age`, and remove parameter `salar
 
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007
-+ Actions: Update Query Params / Find and replace
-1. 35 -> 55
++ Actions: `Update Request Body` / Find and replace
+1. 35 -> 18
 2. 1500 -> 5000
-3. opt.1  "salary":1500 -> Null
-   opt.2. remove "salary":1500
+3. opt.1  "salary":1500 -> empty
+   opt.2. `Update Query Params`:`Remove` "salary"
 ### Task:
 Create rules:
  - Sniff response to rename qa_salary_after_6_months to qa_salary_after_10_months. 
