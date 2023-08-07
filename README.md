@@ -57,7 +57,7 @@ Opt.1. With `Update Query Params`
 Opt.2.With `URL`
 + Add rule:
 + Conditions: URL contains `http://162.55.220.72:5007`
-+ Actions: Update URL / Find and replace ((35 -> 55)
++ Actions: Update URL / Find and replace ((35 -> 18)
 
 ## Ex_2:
 ```
@@ -172,7 +172,7 @@ Here we will change value of parameter `name`,`age`, `salary` and remove paramet
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: `Update Query Params / Find and replace` or `Set value`
 1. Mariia -> Dariiya
-2. 35 -> 55
+2. 35 -> 18
 3. `Update Query Params/Remove` : weight
 
 
@@ -246,9 +246,9 @@ Here we will change value of parameter `name`,`age`, and remove parameter `name`
 
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007
-+ Actions: Update Query Params / Find and replace or use `Set value`
-1. Mariia -> Dariiya
-2. 35 -> 55
++ Actions: `Update Query Params / Find and replace` or use `Set value`
+1. Mariia -> Masha or Mariiya -> Dariiya
+2. 35 -> 55 or 35->18
 3. `remove`: "name"
 ### Task:
 Create rules:
@@ -300,7 +300,7 @@ Date: Sun, 06 Aug 2023 22:06:45 GMT
    
 }
 ```
-2. Use `Manual response`:
+2. Opt.1. Use `Manual response`:
 ```  
 HTTP/1.1 200 OK
 Content-Type: application/json
@@ -311,7 +311,36 @@ Date: Sun, 06 Aug 2023 22:17:08 GMT
 {: "age": "35", "family": { "children": [ [ "Alex", 24 ], [ "Kate", 12 ] ], "pets": { "cat": { "weight": 15, "name": "Denny" }, "dog": { "age": 4, "name": "Luky" } }, "u_salary_1_5_year": 6000 }, "name": "Mariia", "salary": 1500
 }: 
 ```
- 
+Opt.2. Use `Update Response Body` `Set value/JSON`
+```
+{
+    "age": "35",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "pets": {
+            "cat": {
+                "weight": 15,
+                "name": "Denny"
+            },
+            "dog": {
+                "age": 4,
+                "name": "Luky"
+            },
+            "u_salary_1_5_year": 6000
+        },
+        "name": "Mariia",
+        "salary": 1500
+    }
+```
 3. **In request**: Opt.1 Change `URL` from GET to POST request (take POST URL from Postman)
    
 **In response**:
