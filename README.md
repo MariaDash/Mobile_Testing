@@ -442,9 +442,8 @@ Date: Mon, 07 Aug 2023 07:25:00 GMT
 
 ```
 + Actions: `Update Response Body / Find and replace`
-2. opt.1 "salary": 1500 -> (empty)
-   opt.2  in `Update Query Params` `remove/key:salary`
-3. Use `Manual Response`:
+
+2. Use `Manual Response`:
 ```
 HTTP/1.1 200 OK
 Content-Type: application/json
@@ -458,7 +457,7 @@ Date: Mon, 07 Aug 2023 08:10:52 GMT
     "salary": "a lot"
 }
 ```
-4. `In request`: Change `URL` from GET to POST request (take from Postman)
+3. `In request`: Change `URL` from GET to POST request (take from Postman)
    `In Response`: Opt.1. Use `Manual Response`:
 ```
    HTTP/1.0 405 Method Not Allowed
@@ -477,7 +476,7 @@ Date: Mon, 07 Aug 2023 08:18:40 GMT
     ]
 }
 ```
-                  Opt.2. With `Update Status Code`
+   Opt.2. With `Update Status Code`
 
 Choose `405 Method not Allowed`
             
