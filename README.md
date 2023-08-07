@@ -441,7 +441,9 @@ Date: Mon, 07 Aug 2023 07:25:00 GMT
    }
 
 ```
-+ Actions: `Update Response Body / Find and replace`
+Opt.2.  Use `Update Response Body/Find and replace `
+   
+"salary":1500, ->  (empty)
 
 2. Use `Manual Response`:
 ```
@@ -533,7 +535,7 @@ Here we will change `Response Body`:
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace
 1. "qa_salary_after_6_months" -> "qa_salary_after_10_months"
-2. "qa_salary_after_1.5_year": 4950.0 ->  "qa_salary_after_1.5_year": 5000
+2. 4950.0 ->  5000
 3. opt.1  `Update Response Body/Set value/JSON`:
 ```
 {
