@@ -314,8 +314,6 @@ Date: Sun, 06 Aug 2023 22:17:08 GMT
  
 3. **In request**: Opt.1 Change `URL` from GET to POST request (take POST URL from Postman)
    
-                   Opt. 2 In  `Update request header` change method from `GET` to `POST`
-   
 **In response**:
 1) Use `Manual Response`
 ```
@@ -417,12 +415,43 @@ Date: Mon, 07 Aug 2023 07:25:00 GMT
 + Actions: `Update Response Body / Find and replace`
 2. opt.1 "salary": 1500 -> (empty)
    opt.2  in `Update Query Params` `remove/key:salary`
-3. `Update Response Body / Find and replace`
+3. Use `Manual Response`:
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 66
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Mon, 07 Aug 2023 08:10:52 GMT
 
-   "salary": [ 1500, "3000", "4500"] -> "salary": "a_lot"
-4. In request: Opt.1 Change `URL` from GET to POST request (take from Postman)
-               Opt. 2 In  `Update request header` change method from `GET` to `POST`
-   In response: In `Update Response Header` change status code from `200` to `405`
+{
+    "age": 35,
+    "name": "Mariia",
+    "salary": "a lot"
+}
+```
+4. `In request`: Change `URL` from GET to POST request (take from Postman)
+   `In Response`: Opt.1. Use `Manual Response`:
+```
+   HTTP/1.0 405 Method Not Allowed
+Content-Type: application/json
+Content-Length: 117
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Mon, 07 Aug 2023 08:18:40 GMT
+
+{
+    "age": 35,
+    "name": "Mariia",
+    "salary": [
+        1500,
+        "3000",
+        "4500"
+    ]
+}
+```
+                  Opt.2. With `Update Status Code`
+
+Choose `405 Method not Allowed`
+            
 
 
 ## Ex_6:
