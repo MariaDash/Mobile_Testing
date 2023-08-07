@@ -379,11 +379,12 @@ Here we will change value of parameter `name`,`age`, and remove parameter `salar
 
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007
-+ Actions: Update Query Params / Find and replace
++ Actions: opt.1. `Update Query Params/name / Find and replace` 
 1. Mariia -> Dariiya
-2. 35 -> 55
-3. opt.1  "salary":1500 -> Null
-   opt.2. remove "salary":1500
+ or opt.2. `Set value` `Denny`
+3. Actions: opt.1. `Update Query Params/name / Find and replace` 35 -> 18
+   opt.2. `Set value` `18`
+4. `Update Query Params/name/Remove` "salary"
 ### Task:
 Create rules:
 
@@ -396,10 +397,26 @@ Here we will change `Response Body`:
 + Add rule:
 + Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: Update Response Body / Find and replace
-1. opt.1 "salary": 1500 -> Null
+1.opt.1 with `Manual response`:
+```
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 57
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Mon, 07 Aug 2023 07:25:00 GMT
+
+{
+    "age": 35,
+    "name": "Mariia",
+   }
+
+```
+ opt.2 "salary": 1500 -> (empty)
+ 
+2. opt.1 "salary": 1500 -> Null
    opt.2  remove "salary": 1500
-2. "salary": [ 1500, "3000", "4500"] -> "salary": "a_lot"
-3. In request: Opt.1 Change `URL` from GET to POST request (take from Postman)
+3. "salary": [ 1500, "3000", "4500"] -> "salary": "a_lot"
+4. In request: Opt.1 Change `URL` from GET to POST request (take from Postman)
                Opt. 2 In  `Update request header` change method from `GET` to `POST`
    In response: In `Update Response Header` change status code from `200` to `405`
 
