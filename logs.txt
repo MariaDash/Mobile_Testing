@@ -1,0 +1,14 @@
+2023-08-02 15:11:11.617 32379-32379/com.example.todoapp E/IPCThreadState: attemptIncStrongHandle(76): Not supported
+2023-08-02 15:11:11.617 32379-32379/com.example.todoapp E/IPCThreadState: attemptIncStrongHandle(58): Not supported
+2023-08-02 15:11:11.626 32379-32411/com.example.todoapp E/OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+2023-08-02 15:11:11.626 32379-32411/com.example.todoapp W/OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+2023-08-02 15:11:14.889 32379-32379/com.example.todoapp W/OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+    Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2023-08-02 15:11:18.626 32379-32379/com.example.todoapp W/OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+    Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2023-08-02 15:11:21.874 32379-32379/com.example.todoapp E/OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@d842021
+2023-08-02 15:11:22.019 32379-32411/com.example.todoapp W/Parcel: Expecting binder but got null!
+2023-08-02 15:11:25.095 32379-32379/com.example.todoapp W/OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+    Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+2023-08-02 15:11:33.527 32379-32379/com.example.todoapp E/IPCThreadState: attemptIncStrongHandle(96): Not supported
+2023-08-02 15:11:33.665 32379-32395/com.example.todoapp W/example.todoapp: Reducing the number of considered missed Gc histogram windows from 120 to 100
