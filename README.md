@@ -1,4 +1,4 @@
-# ADB Debugging
+# ADB Homework
 ## 1. Show your connected devices
 
 Mac, Windows Git Bash:
