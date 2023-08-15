@@ -1,4 +1,6 @@
 # Mobile_Testing
+## Mobile testing features:
+![I sliced up fun](https://github.com/MariaDash/Mobile_Testing/blob/main/Screen%20Shot%202022-12-20%20at%2011.25.52%20AM.png)
 ## [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
 ## [Charles Proxy Homework](https://github.com/MariaDash/Mobile_Testing/tree/Charles_Proxy)
 ## <a href="https://youtu.be/_Hin1l1Er8Y">Working with Android Studio</a>
