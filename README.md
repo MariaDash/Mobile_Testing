@@ -11,7 +11,7 @@
 ## 8. [Common iOS Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Commom_iOS_guidelines.md)
 ## 9. [What's New in Android 14](https://github.com/MariaDash/Mobile_Testing/blob/main/What's%20New%20in%20Android%2014.md)
 ## 10. [What's New in iOS 17](https://github.com/MariaDash/Mobile_Testing/blob/main/What's%20New%20in%20iOS%2017.md)
-## 11. 
+## 11. [Google Play Review Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Google%20Play%20Review%20Guidelines.md)
 ## 12. [App Store Review Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/App%20Store%20Review%20Guidelines.md)
 ## 13. [Test Documentation](https://github.com/MariaDash/Test_documentation)
 
