@@ -1,4 +1,4 @@
-# New Android 14 freatures
+# New Android 14 features
 ## 1. First of all the name. The Name is Upside Down Cake
 ## 2. Easter edd - all about space travel
 ## 3. Fonts go even larger
