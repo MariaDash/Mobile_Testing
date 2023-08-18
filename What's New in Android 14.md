@@ -64,4 +64,4 @@ At Google I/O 2023, the company rolled out not one, not two, but three new ways 
 + Android 14 will let enterprise and government users restrict a device’s ability to fall back to the insecure 2G standard.
 + Google is also letting users disable support for so-called “null-ciphered” cellular connections in Android. In other words, users can choose to only use encrypted cellular connections.
 
-See about Android 14 feaures in this video: <a href="https://youtu.be/132KyYhoOKI">Android 14 features</a>
+See about Android 14 features in this video: <a href="https://youtu.be/132KyYhoOKI">Android 14 features</a>
