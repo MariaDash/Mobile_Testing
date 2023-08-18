@@ -9,5 +9,6 @@
 ## [Fiddler Homework](https://github.com/MariaDash/Mobile_Testing/tree/Fiddler)
 ## [Common Andriod Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Common_Android_guidelines.md)
 ## [Common iOS Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Commom_iOS_guidelines.md)
+## [What's New in iOS 17](https://github.com/MariaDash/Mobile_Testing/blob/main/What's%20New%20in%20iOS%2017.md)
 ## [Test Documentation](https://github.com/MariaDash/Test_documentation)
 
