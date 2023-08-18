@@ -1,4 +1,5 @@
-# App Store Review Guidelines see more @ https://developer.apple.com/app-store/review/guidelines/
+# App Store Review Guidelines
+see more @ https://developer.apple.com/app-store/review/guidelines/
 ## 1. Safety
 When people install an app from the App Store, they want to feel confident that it’s safe to do so—that the app doesn’t contain upsetting or offensive content, won’t damage their device, and isn’t likely to cause physical harm from its use. We’ve outlined the major pitfalls below, but if you’re looking to shock and offend people, the App Store isn’t the right place for your app.
 ## 2. Performance
