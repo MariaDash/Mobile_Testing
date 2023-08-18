@@ -1,4 +1,4 @@
-# Android Glossary
+# Android Glossary https://developer.android.com/design/ui/mobile
 ## 1. Activities
 In Android, an activity includes an app's UI and the actions it makes available to users. An app is a collection of activities that are created and reused from other apps. 
 ## 2. CTA
