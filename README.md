@@ -1,6 +1,6 @@
 # Mobile_Testing
 ## 1. Mnemonic for mobile testing:
-![I sliced up fun](https://github.com/MariaDash/Mobile_Testing/blob/main/I%20sliced%20up%20fun.png)
+![I sliced up fun](https://github.com/MariaDash/Mobile_Testing/blob/main/I%20SLICED%20UP%20FUN2.0.png)
 ## 2. [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
 ## 3. [Charles Proxy Homework](https://github.com/MariaDash/Mobile_Testing/tree/Charles_Proxy)
 ## 4. [Fiddler Homework](https://github.com/MariaDash/Mobile_Testing/tree/Fiddler)
