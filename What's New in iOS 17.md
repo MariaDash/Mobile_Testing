@@ -1,4 +1,4 @@
-   # New features of iOS 17
+   # New features of iOS 17 https://www.apple.com/ios/ios-17-preview/
 ## 1. Personalization of phone calls preview
 You can customize what people see when you call
 ## 2. Live transcript of voicemail message
