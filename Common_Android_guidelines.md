@@ -80,21 +80,21 @@ Title is aligned to the left, located near "hamburger" menu or near "back" butto
 + Button is usually located in the bottom right corner.
 
 ## More about Navigation:
-### + System bars
+### System bars
 Together, the status bar and the navigation bar are called the system bars. They display important information such as battery level, the time, and notification alerts, and provide direct device interaction from anywhere. Keep system bars at the top of most layers to ensure they're accounted for.
 System bars should be included in app designs and be or transparent or simular color towards the app.
-### +  Status bar
+### Status bar
 On Android, the status bar contains notification icons and system icons. The user interacts with the status bar by pulling it down to access the notification shade. The status bar can appear differently depending on the context, time of day, user-set preferences or themes, and other parameters. You can also set the status bar style, as in the following examples.
-### + Set the status bar style
+### Set the status bar style
 Style the status bar background as a part of your app theme, with a custom color or style, along with setting transparency and opacity.
-### + Navigation bar
+### Navigation bar
 Android lets users control navigation using back, home, and overview controls:
 
 + Back returns directly back to the previous view.
 + Home transitions out of the app and to the device's home screen.
 + Overview shows the apps are open and have recently been opened.
 Users can choose from various navigation bar configurations including gesture navigation (recommended) and three-button navigation.
-### + Gesture navigation
+### Gesture navigation
 Introduced in Android 10 (API level 29), gesture navigation is the recommended type of navigation, although you can't override the user's preference. Gesture navigation doesn't use buttons for back, home, and overview, instead showing a single gesture handle for affordance. Users interact by swiping from the left or right edge of the screen to go back and forward and up from the bottom to go home. Swiping up and holding opens the overview.
 
 Gesture navigation is a more scalable navigation pattern for designing across mobile and larger screens. To provide the best user experience, account for gesture navigation by:
@@ -181,15 +181,15 @@ Columns build a grid structure to provide vertical definition to a layout by div
 Window size classes are a set of opinionated viewport breakpoints that help you design, develop, and test responsive and adaptive application layouts. Android breaks window size classes into 3: Compact, Medium, and Expanded.
 + Aspect ratios
 An aspect ratio is the proportion of an element's width to its height. Aspect ratios are written as width:height.
-+ To maintain consistency in your layout, use a consistent aspect ratio on elements like images, surfaces, and screen size.
-+ The following aspect ratios are recommended for use across your UI:
+1. To maintain consistency in your layout, use a consistent aspect ratio on elements like images, surfaces, and screen size.
+2. The following aspect ratios are recommended for use across your UI:
 
-16:9
-3:2
-4:3
-1:1
-3:4
-2:3
++ 16:9
++ 3:2
++ 4:3
++ 1:1
++ 3:4
++ 2:3
 ## 12. Immersive content
 You can use immersive mode to hide the system bars for a full-screen experience. This is useful for enabling users to enjoy a fully immersive experience for video, games, images, and books, and to avoid accidental exits during a game.
 + Provide an intuitive way for users to display UI–for example, tapping on the screen during video playback displays video playback controls and system bars.
@@ -235,11 +235,12 @@ Passkeys are a safer and more convenient replacement for passwords. With passkey
 + Give your users an opportunity to create a passkey after sign-in with a password or other options.
 ## 16. Notifications
 Notifications provide brief, timely, and relevant information related to your app when it's not in use.
-### The Android OS controls many aspects of notifications, but you have control over other aspects. Follow these steps when implementing notifications:
+
+The Android OS controls many aspects of notifications, but you have control over other aspects. Follow these steps when implementing notifications:
 + Understand the anatomy of a notification.
 + Choose the type of notification for your use case.
 + Set the notification category that aligns with the type of notification you've chosen
 ## 17. Picture-in-picture (PiP)
  is a type of multi-window mode intended for activities that play full-screen video. It lets the user watch a video in a small window pinned to a corner of the screen while navigating between apps or browsing content on the main screen.
  ## 18. Split screen mode
- Working with two applications at a time
+ Working with two applications at a time on divided screen.
