@@ -213,6 +213,7 @@ Date: Sun, 06 Aug 2023 21:18:17 GMT
 5. "daily_sleep" -> "sleep"
   
 7. 140.0 -> 300.0
+!Rules](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler1.PNG)
 
 ## Ex_4:
 ```
@@ -385,6 +386,13 @@ Date: Sun, 06 Aug 2023 22:28:53 GMT
 2) With `Update Status Code`
 
 Choose `405 Method not Allowed`
+
+![405](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler9.PNG)
+
+Rules:
+
+![Rules2](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler2.PNG)
+
 ## Ex_5:
 ```
 Method: GET
@@ -483,7 +491,8 @@ Date: Mon, 07 Aug 2023 08:18:40 GMT
 
 Choose `405 Method not Allowed`
             
-
+Rules:
+![Rules3](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler3.PNG)
 
 ## Ex_6:
 ```
@@ -523,6 +532,10 @@ Here we will change value of parameter `name`,`age`, and remove parameter `salar
 2. 1500 -> 5000
 3. opt.1  "salary":1500 -> empty
    opt.2. `Update Query Params`:`Remove` "salary"
+
+Rule:
+
+![remove](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler11.PNG)
 ### Task:
 Create rules:
  - Sniff response to rename qa_salary_after_6_months to qa_salary_after_10_months. 
@@ -589,3 +602,27 @@ Date: Mon, 07 Aug 2023 08:52:14 GMT
     "start_qa_salary": 1500
 }
 ```
+Rule:
+
+![xml](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler10.PNG)
+
+Rules:
+
+![Rules4](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler4.PNG)
+
+Overview Tab:
+
+![overview](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler5.PNG)
+
+Inspector Headers:
+
+![insp1](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler6.PNG)
+
+Inspector Params:
+
+![insp2](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler7.PNG)
+
+Inspector Body:
+
+![insp3](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler8.PNG)
+
