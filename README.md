@@ -214,7 +214,7 @@ Date: Sun, 06 Aug 2023 21:18:17 GMT
   
 7. 140.0 -> 300.0
    
-!Rules](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler1.PNG)
+![Rules](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler1.PNG)
 
 ## Ex_4:
 ```
