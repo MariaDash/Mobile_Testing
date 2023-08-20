@@ -213,6 +213,7 @@ Date: Sun, 06 Aug 2023 21:18:17 GMT
 5. "daily_sleep" -> "sleep"
   
 7. 140.0 -> 300.0
+   
 !Rules](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler1.PNG)
 
 ## Ex_4:
