@@ -1,8 +1,6 @@
 # Mobile_Testing
 ## 1. Types of web applications:
-+ Native
-+ Hybrid
-+ Mobile Web
++ [Native, Hybrid, Mobile Web](https://github.com/MariaDash/Mobile_Testing/blob/main/MobileTypesOfApps.pdf)
 + [PWA](https://github.com/MariaDash/Mobile_Testing/blob/main/PWA.md)
 ## 1. Mnemonic Check-list for mobile testing features based on `I SLICED UP FUN` and my experience in regression testing of mobile applications:
 
