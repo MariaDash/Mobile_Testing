@@ -8,6 +8,7 @@
 ![I sliced up fun_2.0](https://github.com/MariaDash/Mobile_Testing/blob/main/Mobile%20Testing%20Features.png)
 
 ## 2. [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
+###   <a href="https://youtu.be/vFdStzk-Nrs">ADB Presentation part 1 in Russian</a>
 ## 3. [Charles Proxy Homework](https://github.com/MariaDash/Mobile_Testing/tree/Charles_Proxy)
 ## 4. [Fiddler Homework](https://github.com/MariaDash/Mobile_Testing/tree/Fiddler)
 ## 5. <a href="https://youtu.be/_Hin1l1Er8Y">Working with Android Studio</a>
