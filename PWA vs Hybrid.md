@@ -1,9 +1,11 @@
 ## PWA or mashup features
 There are two main types of web apps that can be installed on Android devices. The main difference is whether the application code is embedded in an application package (hybrid) or hosted on a web server (pwa).
 
-### Hybrid Web Apps : The code (HTML, JS, CSS) is packaged in an APK package and can be distributed through the Google Play Store. The viewer module is isolated from users' internet browser, with no session or cache sharing.
+### Hybrid Web Apps : 
+The code (HTML, JS, CSS) is packaged in an APK package and can be distributed through the Google Play Store. The viewer module is isolated from users' internet browser, with no session or cache sharing.
 
-### Progressive Web Apps (PWA): The code (HTML, JS, CSS) is on the web and doesn't need to be packaged as an APK. Resources are downloaded and updated as needed by the service role. The Chrome browser renders and displays your app, but will look native and will not include the normal browser address bar, etc. You can share storage, cache, and browser sessions. In essence, this is similar to installing a shortcut in the Chrome browser in a special mode. PWAs can also be listed on the Google Play Store using a trusted web action.
+### Progressive Web Apps (PWA): 
+The code (HTML, JS, CSS) is on the web and doesn't need to be packaged as an APK. Resources are downloaded and updated as needed by the service role. The Chrome browser renders and displays your app, but will look native and will not include the normal browser address bar, etc. You can share storage, cache, and browser sessions. In essence, this is similar to installing a shortcut in the Chrome browser in a special mode. PWAs can also be listed on the Google Play Store using a trusted web action.
 
 ### PWAs and hybrid web apps are very similar to the native Android app in that they:
 
