@@ -110,9 +110,9 @@ C:\Users\Admin>adb -d uninstall com.gobrief.android
 Success
 
 C:\Users\Admin>
-
-10. Research what adb command reboots the device and reboot it 
-
+```
+## 10. Research what adb command reboots the device and reboot it 
+```
 C:\Users\Admin>adb -e reboot
 
 C:\Users\Admin>
