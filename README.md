@@ -248,7 +248,7 @@ Create rules:
 Here we will change value of parameter `name`,`age`, and remove parameter `name`in request params:
 
 + Add rule:
-+ Conditions: `URL contains http://162.55.220.72:5007
++ Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: `Update Query Params / Find and replace` or use `Set value`
 1. Mariia -> Masha or Mariiya -> Dariiya
 2. 35 -> 55 or 35->18
@@ -419,7 +419,7 @@ Create rules:
 Here we will change value of parameter `name`,`age`, and remove parameter `salary`in request params:
 
 + Add rule:
-+ Conditions: `URL contains http://162.55.220.72:5007
++ Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: opt.1. `Update Query Params/name / Find and replace` 
 1. Mariia -> Dariiya
  or opt.2. `Set value` `Denny`
@@ -527,7 +527,7 @@ Create rules:
 Here we will change value of parameter `name`,`age`, and remove parameter `salary`in request params:
 
 + Add rule:
-+ Conditions: `URL contains http://162.55.220.72:5007
++ Conditions: `URL contains http://162.55.220.72:5007`
 + Actions: `Update Request Body` / Find and replace
 1. 35 -> 18
 2. 1500 -> 5000
