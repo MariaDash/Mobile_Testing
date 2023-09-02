@@ -83,4 +83,4 @@ Windows PowerShell:
 ```  
 .\adb uninstall com.android.todolist
 ```
-*-this syntax is used to windows PowerShell if Git Bash is not installed
+*-this syntax is used in Windows PowerShell if Git Bash is not installed
