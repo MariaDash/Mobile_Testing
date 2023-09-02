@@ -63,7 +63,7 @@ C:\Users\Admin>adb -d exec-out screencap -p > C:\Users\Admin\OneDrive\Desktop\La
 
 C:\Users\Admin>
 ```
-## 7.!!!!!Using adb, record a 30-second video (use TIME option as explained in Notes) and pull it onto your computer's Desktop
+## 7.!!!!!Using adb, record a 30-second video (use TIME option) and pull it onto your computer's Desktop
 ```
 C:\Users\Admin>adb -e shell screenrecord --time-limit 30 /sdcard/ErrorMsgRegistrationScreen.mp4
 
