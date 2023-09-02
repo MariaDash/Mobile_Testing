@@ -45,7 +45,7 @@ To calculate dp:
 
 dp = (width in pixels * 160) / screen density
 
-## 3. Screen size (most popular)
+## 3. Screen resolution (most popular)
 360 px x 640 px
 
 ## 4. Shadows in the interface
