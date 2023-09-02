@@ -12,10 +12,11 @@ The code (HTML, JS, CSS) is on the web and doesn't need to be packaged as an APK
 + Can be installed through the App Store (Google Play Store and/or Microsoft Store)
 + Access native device features such as camera, GPS, Bluetooth, notifications and contact list
 + Work offline (no internet connection)
+  
 PWAs also have some unique features:
 
 + Can be installed on the Android home screen directly from the web (no App Store).
 + Can optionally be installed via the Google Play Store using a trusted web action
 + Can be discovered by searching the web or shared via a URL link
 + Use a service worker to avoid having to package native code
-You don't need a platform to build a hybrid app or PWA, but there are several popular platforms that this guide will cover, including PhoneGap (with Cordova) and Ionic (with Cordova or Capacitor using Angular or React).
+You don't need a platform to build a hybrid app or PWA, but there are several popular platforms including PhoneGap (with Cordova) and Ionic (with Cordova or Capacitor using Angular or React).
