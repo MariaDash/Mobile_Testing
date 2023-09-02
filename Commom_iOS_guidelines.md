@@ -5,7 +5,7 @@
 
 ![point](https://github.com/MariaDash/Mobile_Testing/blob/main/point.PNG)
 
-## 3. Screen size (most popular)
+## 3. Screen reso;ution (most popular)
 320 px x 568 px (iPhone 5)
 
 ## 4. Shadows and gradients in the interface
