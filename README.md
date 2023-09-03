@@ -5,7 +5,7 @@
 + [PWA vs Hybrid](https://github.com/MariaDash/Mobile_Testing/blob/main/PWA%20vs%20Hybrid.md)
 ## 1. Mnemonic Check-list for mobile testing features based on `I SLICED UP FUN` and my experience in regression testing of mobile applications:
 
-![I sliced up fun_2.0](https://github.com/MariaDash/Mobile_Testing/blob/main/Mobile%20Testing%20Features.png)
+![I sliced up fun_2.0](https://github.com/MariaDash/Mobile_Testing/blob/main/Mobile%20Testing%20Features2.0.png)
 
 ## 2. [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
 ###   <a href="https://youtu.be/vFdStzk-Nrs">ADB Presentation part 1 in Russian</a>
