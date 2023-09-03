@@ -64,7 +64,7 @@ Android lets users control navigation using `back`, `home`, and `overview` contr
 Users can choose from various navigation bar configurations including gesture navigation (recommended) and three-button navigation.
 
 ### Top-level Navigation:
-+ Bottom level Navigation Bar
++ Bottom Navigation Bar
 + Tabs
 ### Additional navigation
 + "Hamburger" button opens side menu "Navigation Drawer"
