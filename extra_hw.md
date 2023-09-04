@@ -69,7 +69,7 @@ C:\Users\Admin>adb -e shell screenrecord --time-limit 30 /sdcard/ErrorMsgRegistr
 
 C:\Users\Admin>adb -e pull /sdcard/ErrorMsgRegistrationScreen.mp4 D:/Testing/
 ```
-Pusing screenshots:
+Pushing screenshots:
 ```
 C:\Users\Admin>adb -d pull /storage/emulated/0/Pictures/Screenshots/1.jpg D:/Testing/
 /storage/emulated/0/Pictures/Screenshots/1.jpg: 1 file pulled, 0 skipped. 24.1 MB/s (659562 bytes in 0.026s)
