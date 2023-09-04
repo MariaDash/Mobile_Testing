@@ -57,7 +57,7 @@ This site architecture - loading content and other dynamic information through a
 + App shell is like a native program shell.
 An app shell is like a shell for a native program. Think of your PWA as a native program and things will become easier.
 
-## web app manifest
+## Web app manifest
 
 JSON file that declaratively defines the name of the application for the browser, the icon, how the PWA will look (fullscreen, standalone, etc.) and some other parameters. Allows you to "install" PWA as a standalone application on your smartphone's home screen.
 
