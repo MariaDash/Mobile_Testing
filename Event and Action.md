@@ -4,7 +4,7 @@ Here is a list of the most commonly used DOM events, just for reference:
 
 ## Mouse events:
 
-+ `click`` - occurs when an element is clicked with the left mouse button (on devices with touch screens, it occurs on touch).
++ `click` - occurs when an element is clicked with the left mouse button (on devices with touch screens, it occurs on touch).
 + `contextmenu` - occurs when an element is right-clicked.
 + `mouseover / mouseout` - when the mouse moves over / leaves the element.
 + `mousedown / mouseup` - when the mouse button was pressed / released on the element.
