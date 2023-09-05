@@ -19,6 +19,7 @@
 ## 9. [Release Notes/What's New in Android 14](https://github.com/MariaDash/Mobile_Testing/blob/main/What's%20New%20in%20Android%2014.md)
 ## 10. [Release Notes/What's New in iOS 17](https://github.com/MariaDash/Mobile_Testing/blob/main/What's%20New%20in%20iOS%2017.md)
 ## 11. [iOS vs Android](https://github.com/MariaDash/Mobile_Testing/blob/main/iOS%20vs%20Android.PNG)
+## 12. [Push Notifications iOS vs Android](https://github.com/MariaDash/Mobile_Testing/blob/main/Push%20Notifications%20Differences%20iOS%20vs%20Android.md)
 ## 12. [Google Play Review Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Google%20Play%20Review%20Guidelines.md)
 ## 13. [App Store Review Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/App%20Store%20Review%20Guidelines.md)
 ## 14. [Test Documentation](https://github.com/MariaDash/Test_documentation)
