@@ -30,10 +30,14 @@ An event can be assigned a handler, that is, a function that will work as soon a
 
 
 
-According to the MVC paradigm, the data model and the views must be decoupled: this philosophy has been respected on the whole product. Between model and view, a controller should be included, in order to manage operations to apply on the views and to listen to events coming from the views. Actions in 4WS.Platform represent the controller: they are invoked by events fired by views (a grid, a form, a tree, a column, a control, a filter control, a tree node, a button) and they perform a presentation logic on the GUI or a business logic on the server side. Actions have a format:
-JavaScript– in this case the code will be executed on the GUI
-SQL – in this case the code will be run on the server side; it can include more than one SQL statement, separated by ";"
-Web service – the web service is expressed as an URL which can include variables (:VARNAME); this web service will be always called on the server layer, so there will not be any limit related the host to invoke.
-By means of actions, it is possible to enhance and customize the standard behavior of grids, forms, trees and the other components, by injecting custom code invoked by specific events.
-Events and actions work closely: an event provides inputs that an action can use and evaluate; output from actions can represent a feedback for events and can influence the way the component behaves after the event completion. So, for example, it is possible to prevent the data saving when pressing the save button in a grid, using an action linked to a "before saving on insert" event.
-It is also possible to create a chain of actions to execute in sequence, starting from a single event: through the action detail form, it is possible to define an optional action to perform at the end of the current one. In case of server-side javascript actions, it is also possible to define an action to concatenate before the current action: in this way, a unique action composed of these two is execute on the server side. This feature allows to reuse code defined on the server by multiple actions, in a similar way to classes linked to a inheritance relationship: a base action can contain reusable code, expressed as declaration of functions, whereas other classes can invoke that code, if they inherit the base action, by declaring it as the class to execute before.
+
+
+A user only provides actions (pressing on buttons, making selections in dialogs etc.)
+
+These actions get [sometimes] converted into events by the underlying framework. Events can be understood, conceptually, as [notification] "messages" sent to methods which have, implicitly or explicitly, "registered" with the underlying framework to be notified [for a specific type of event]. In reality the framework merely invoke these methods with the appropriate arguments, and such an invocation is effectively an event.
+
+The word event is also used to designate a particular type of events. For example one speaks of the "Change" event or "Submit" event of a given edit box or other UI element. In this sense the event is not a particular instance of an opportunity for the underlying method to be called, but rather the generic set of conditions which warrant the method to be invoked.
+
+The user therefore doesn't really "submit a message" as phrased in the question, he/she takes some actions upon various UI elements, and these action [may] result in the fact that the framework detects a particular event type (or several). The framework then looks-up which methods are currently registered to receive the corresponding notifications, and the framework then invokes these methods, passing the proper arguments (which constitute a "message" of sorts for use by the method).
+
+The main idea behind this model is for the application-level to provide the specific logic to handle events but not worry about following the system and user's every "move". The framework does this, and can be trusted to notify the relevant event handlers would a particular user action (or system condition such as a timer reaching its set time, a network packet being received etc. etc.) warrant such notification.
