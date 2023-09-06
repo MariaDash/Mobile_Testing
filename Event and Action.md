@@ -1,34 +1,4 @@
-# Event
-Event is a signal from the app that something has happened. 
-Here is a list of the most commonly used DOM events, just for reference:
-
-## Mouse events:
-
-+ `click` - occurs when an element is clicked with the left mouse button (on devices with touch screens, it occurs on touch).
-+ `contextmenu` - occurs when an element is right-clicked.
-+ `mouseover / mouseout` - when the mouse moves over / leaves the element.
-+ `mousedown / mouseup` - when the mouse button was pressed / released on the element.
-+ `mousemove` - when moving the mouse.
-## Events on controls:
-
-+ `submit` - The user has submitted the form <form>.
-+ `focus` - The user focuses on the element, such as clicking on an <input>.
-## Keyboard events:
-
-+ `keydown and keyup` - when the user presses/releases a key.
-## Document events:
-
-`DOMContentLoaded` - When the HTML is loaded and rendered, the DOM of the document is fully built and available.
-## CSS events:
-
-`transitionend` - when the CSS animation is complete.
-
-## Event handlers
-An event can be assigned a handler, that is, a function that will work as soon as the event occurs.
-
-# Action
-
-## Events and Actions
+# Events and Actions
 
 ## Use
 Most UI elements (e.g. the Button UI element) can react to a user's interaction (e.g. clicking on the corresponding pushbutton). This reaction can trigger a handling method to be called within the view controller.
@@ -59,6 +29,34 @@ A view controller should be written such that it is only ever a consumer of data
 Inbound plugs in a view also react like an event. Therefore, when a view is called using an inbound plug, the event handler that is optionally available for the inbound plug is always called first. In this case event handling takes place within the current view controller, however.
 
 The same applies for the inbound plugs of an interface view. In the corresponding window controller, an event handler is created. It can then be programmed further, as appropriate.
+
+## Here is a list of the most commonly used DOM events, just for reference:
+
+## Mouse events:
+
++ `click` - occurs when an element is clicked with the left mouse button (on devices with touch screens, it occurs on touch).
++ `contextmenu` - occurs when an element is right-clicked.
++ `mouseover / mouseout` - when the mouse moves over / leaves the element.
++ `mousedown / mouseup` - when the mouse button was pressed / released on the element.
++ `mousemove` - when moving the mouse.
+## Events on controls:
+
++ `submit` - The user has submitted the form <form>.
++ `focus` - The user focuses on the element, such as clicking on an <input>.
+## Keyboard events:
+
++ `keydown and keyup` - when the user presses/releases a key.
+## Document events:
+
+`DOMContentLoaded` - When the HTML is loaded and rendered, the DOM of the document is fully built and available.
+## CSS events:
+
+`transitionend` - when the CSS animation is complete.
+
+## Event handlers
+An event can be assigned a handler, that is, a function that will work as soon as the event occurs.
+
+
 
 -----
 
