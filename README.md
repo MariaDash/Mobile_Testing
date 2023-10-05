@@ -9,6 +9,7 @@
 
 ## 2. [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
 ###   <a href="https://youtu.be/vFdStzk-Nrs">ADB Presentation part 1 in Russian</a>
+###   <a href="https://youtu.be/k_Gap-qqSAU">ADB Presentation part 2 in English</a>
 ## 3. [Charles Proxy Homework](https://github.com/MariaDash/Mobile_Testing/tree/Charles_Proxy)
 ## 4. [Fiddler Homework](https://github.com/MariaDash/Mobile_Testing/tree/Fiddler)
 ## 5. <a href="https://youtu.be/_Hin1l1Er8Y">Working with Android Studio</a>
