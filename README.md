@@ -8,11 +8,11 @@
 ![I sliced up fun_2.0](https://github.com/MariaDash/Mobile_Testing/blob/main/Mobile%20Testing%20Features2.0.png)
 
 ## 2. [ADB Homework](https://github.com/MariaDash/Mobile_Testing/tree/ADB_Debugging)
-###   <a href="https://youtu.be/vFdStzk-Nrs">ADB Presentation part 1 in Russian</a>
-###   <a href="https://youtu.be/k_Gap-qqSAU">ADB Presentation part 2 in English</a>
+###   <a href="https://youtu.be/vFdStzk-Nrs?si=UiH0NCd35jcP_B0z">ADB Presentation part 1 in Russian</a>
+###   <a href="https://youtu.be/k_Gap-qqSAU?si=yZe6iyJ7pOoUjFur">ADB Presentation part 2 in English</a>
 ## 3. [Charles Proxy Homework](https://github.com/MariaDash/Mobile_Testing/tree/Charles_Proxy)
 ## 4. [Fiddler Homework](https://github.com/MariaDash/Mobile_Testing/tree/Fiddler)
-## 5. <a href="https://youtu.be/_Hin1l1Er8Y">Working with Android Studio</a>
+## 5. <a href="https://youtu.be/_Hin1l1Er8Y?si=qtn-zzw7zcaXDDTY">Working with Android Studio</a>
 ### Logs are [here](https://github.com/MariaDash/Mobile_Testing/blob/main/logs.pdf) and [here](https://github.com/MariaDash/Mobile_Testing/blob/main/logs.txt)
 ## 6. [Working with Xcode](https://github.com/MariaDash/Mobile_Testing/blob/main/Working%20in%20Xcode.md)
 ## 7. [Common Android Guidelines](https://github.com/MariaDash/Mobile_Testing/blob/main/Common_Android_guidelines.md)                       
