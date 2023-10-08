@@ -1,4 +1,4 @@
-# Fiddler Trafic Capture
+# Fiddler Traffic Capture
 ## Settings are [here](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler_Rules.farx)
 ## Ex_0: Filter requests by ip (Contains: 162.55.220.72)
 ![filtering](https://github.com/MariaDash/Mobile_Testing/blob/Fiddler/Fiddler12.PNG)
