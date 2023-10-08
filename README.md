@@ -1,4 +1,4 @@
-# Charles Proxy Traffic capture
+# Charles Proxy Traffic Capture
 ## Rewrite rules are [here](https://github.com/MariaDash/Mobile_Testing/blob/Charles_Proxy/Rewrite_rules.xml)
 ## Breakpoints settings are [here](https://github.com/MariaDash/Mobile_Testing/blob/Charles_Proxy/Breakpoints.xml)
 ## Ex_0: 
