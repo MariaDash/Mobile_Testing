@@ -1,4 +1,4 @@
-# HW ADB by Maria Dashkova
+# Extra ADB commands
 ## 1. Start an emulator from command line (if you have a physical device, ​in addition, connect your phone/tablet with USB); hint: once it is started, open a new terminal or command prompt window to proceed
 ```
 C:\Users\Admin>emulator -list-avds
