@@ -1,4 +1,4 @@
-# Mobile_Testing
+# Mobile_Testing           
 ## 1. Types of mobile applications:
 + [Native, Hybrid, Cross-Platform, Mobile Web](https://github.com/MariaDash/Mobile_Testing/blob/main/MobileTypesOfApps.pdf)
 + [PWA](https://github.com/MariaDash/Mobile_Testing/blob/main/PWA.md)
